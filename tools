@@ -116,4 +116,23 @@ Features:
 
 
 
+Parkmycloud
+ParkMyCloud is a SaaS platform that automatically identifies and eliminates public cloud resource waste and optimize and govern cloud usage by integrating cost control into their DevOps processes.
 
+KEY FEATURES:
+1. Custom Scheduling: Choose and create on/off schedules based on your needs.
+2. Utilization-Based Parking: Drive automated scheduling and resizing actions based on resource utilization history and/or resource names and tags.
+3. Rightsizing: Automatic or on-demand resizing of your resources based on utilization metrics to match your infrastructure needs.
+4. Schedule Override: Temporarily override parking schedules if extended uptime is needed.
+5. Operational Dashboard: Manage cloud resources across multiple credentials, accounts, regions and providers in a single view.
+6. Policy Engine: Use policies to apply parking schedules and assign resources to user-limited teams.
+7. Users & Teams: Govern user access and define permissions with role-based access controls.
+8. Single Sign-On: Add users and create permissions using SSO with SAML 2.0, with support for Azure AD, Azure ADFS, Google Apps, Centrify, Okta, and more.
+9. Reporting: View, download, and email savings reports, organized by teams and credentials.
+10. Public REST API: Any action you can take through the UI can also be taken through a documented API.
+11. ChatOps: Control your resources and override schedules with Slack and Microsoft Teams bots.
+12. Notifications: Get configurable notifications of ParkMyCloud updates & activities via email, webhook or ChatOps.
+
+Cloud service providers supported by Parkmycloud are:
+ParkMyCloud supports Amazon Web Services (AWS) including AWS GovCloud (US), Microsoft Azure, Google Cloud Platform (GCP),
+and Alibaba Cloud. 
