@@ -54,6 +54,17 @@ Key Features:
     7. Unleash DevOps Agility
 
 
+RightScale:
+SaaS provider that offers cloud management and analytics tools for public, private and hybrid clouds.
+
+RightScale's software helps organizations deploy, configure and manage applications across different cloud service provider platforms.
+
+RightScale's main products include:
+
+1. RightScale Self-Service: a portal that gives developers on-demand access to public cloud and private cloud infrastructures, including those from Amazon Web Services (AWS), Microsoft Azure and Google Cloud Platform.
+2. RightScale Cloud Management: a tool that helps organizations design, deploy and maintain control over their cloud environments.
+3. RightScale Cloud Analytics: a dashboard and reporting tool that helps organizations monitor, forecast and optimize costs across public and private clouds.
+4. RightScale Multi-Cloud Platform: a platform that provides a single multi-cloud management interface and application programming interface (API) for private and public IaaS environments, including AWS, Azure and Google. It also supports multiple hypervisors, including KVM, Xen and vSphere, and operating systems, such as CentOS, RHEL, SUSE, Ubuntu and Windows.
 
 
 
