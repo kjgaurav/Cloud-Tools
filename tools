@@ -90,5 +90,17 @@ CloudCheckr major features and tools
 
 
 
+Cloudability
+Provides financial management tools for monitoring and analyzing cloud computing costs.
+
+Features of the Cloudability cost management platform include:
+1. Customizable dashboard  provides a graphical view of an enterprise's key performance indicators (KPIs).
+2. Alerts:  let users know if they have almost exceeded their budget for a particular cloud service account.
+3. Daily email reports inform users of daily cloud service usage and costs trends across their business.
+4. Allocation and chargeback  allows users to track cloud usage and costs by specific business users, departments or teams.
+
+The Cloudability platform is designed to work with:
+1. Amazon Web Services (AWS) public cloud and 
+2. Microsoft Azure. 
 
 
