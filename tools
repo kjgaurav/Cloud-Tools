@@ -1,0 +1,20 @@
+Zerto
+Zerto provides disaster recovery software for virtualized and cloud infrastructures.
+
+Solutions & Features:
+1. Continuous Data Protection (CDP) - Replicate data as block changes occur, recover to any point in time, and archive with virtually no data loss.
+2. Prevent Outages and Disruptions - Handle Every IT Disruption—Both Planned and Unplanned
+3. Protect Your Business And Your Brand From Ransomware - Pinpoint Attacks with Zerto Analytics, Use network reports within Zerto Analytics to find unusual behavior in generated changes and pinpoint the timeframe of malware attacks.
+4. Zerto Eliminate Storage Vendor Lock-In - Zerto launched hypervisor-based replication which is completely storage agnostic and can replicate from any storage brand or technology to any other.
+
+Zerto works regardless of your underlying infrastructure, meaning you can mix and match storage, clouds, and hypervisors.
+Cloud “Translation” on the Fly : Zerto’s agnostic approach doesn’t stop at hypervisors, it also extends into the cloud. Move or recover any workload, to or from any cloud platform, without any manual conversion process required.
+
+A. Data Center Consolidation and Mergers - Whether you’re moving specific applications or entire datacenters, Zerto’s IT Resilience Platform™ solves the challenges associated with workload mobility. A combination of continuous data protection, non-disruptive testing, and support for heterogeneous environments makes the Zerto IT Resilience Platform the best solution for data migration.
+B. Modernizing Infrastructure - Zerto helps you move workloads and data as you upgrade, refresh, consolidate, or integrate new data center infrastructure—even if you have complex and disparate technologies. 
+C. Complete Application Mobility - Zerto’s virtual replication solves migration challenges—and more. Whether you’re moving specific applications or entire datacenters, a combination of continuous data protection, non-disruptive testing, and support for heterogeneous environments delivers seamless data center migrations.
+
+Clouds Zerto Works with(supports)
+Use Zerto to Replicate to Microsoft Azure
+Automate and Orchestrate IT Resilience with Zerto & IBM Cloud
+Simplify Mobility and Protection to or from AWS Sites with Zerto
