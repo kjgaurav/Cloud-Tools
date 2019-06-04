@@ -1,3 +1,14 @@
-1. Sysdig
+1. Sysdig:
+Sysdig is unified cloud-native visibility + security platform.
+
+Cloud-Native Visibility + Security: A data-first approach to delivering reliable, secure containerized applications. The richest data sources mean you can solve problems more intelligently, without managing separate container security and monitoring tools.
+Container security: Sysdig Secure is our container security app running on top of the cloud-native visibility and security platform. Bring together container image scanning, compliance, run-time protection, and forensics to identify vulnerabilities, block threats, meet regulatory requirements, and audit activity across your microservices.
+Automatic orchestrator integration: We use Sysdig ServiceVision to dynamically map services using metadata from Kubernetes, OpenShift, AWS, Azure, Google, Mesos, or Docker EE, and more. With this insight, you can isolate and solve problems faster.
+
+Key Features:
+1. Powerful Observability: Deep system observability at the kernel system call level. Easily observe the state of the entire system, or drill down into the behavior of individual applications or containers.
+2. Container First: Container observability built for containers. Each project is built from the ground up to natively support a variety of container runtimes. No plugins or special integrations required.
+3. Platform Support: Container observability requires context. Overlay data from your Cloud Native platforms such as Kubernetes to understand the behavior of your microservices.
+
 2. Datadog
 3. SignalFX
