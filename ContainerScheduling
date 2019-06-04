@@ -56,3 +56,21 @@ Key Features
 9. Built on Open Source : Enterprise PKS is built atop Cloud Foundry’s Container Runtime (the project formerly known as Kubo).
 
 4. Platform9
+
+Platform9 SaaS-Managed Hybrid Cloud
+
+Platform9 is SaaS-managed Hybrid Cloud platform that enables to consistently manage VMs, containers and serverless functions – on any infrastructure: on-premises or in the public cloud. 
+
+Platform9 turns existing infrastructure into a cloud, instantly, for the remote deployment and management of VMs, Containers, and Serverless Functions across on-premises, public and private clouds.
+
+Key Features:
+    1. Self-service provisioning accelerates development
+    2. Automatic versioning
+    3. No cloud lock-in
+    4. Leverage leading open source technologies
+    5. Extendable to any CI/CD tool
+    6. Zero touch upgrades, management, & maintenance
+    7. Control resource utilization & costs
+    8. Monitoring and alerts
+    9. Compliance, quota, and policy control
+    10. Guaranteed SLA ensures uptime
