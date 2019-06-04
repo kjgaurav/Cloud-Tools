@@ -36,3 +36,14 @@ The features that Datadog offers include:
 
 
 3. SignalFX
+SignalFx is a SaaS-based monitoring and analytics platform which allows customers to analyze, visualize, automate, and alert on metrics data from infrastructure, applications, microservices, containers, and functions.
+At the core of the platform is a streaming architecture that splits metric data points into two streams, one for human readable metadata and the other for time-series values. The data is routed through a pub-sub bus to SignalFlow, a python-like analytics language accessible through the main SignalFx GUI and through programmable API's.
+The platform is able to process millions of data points per second at 1-second resolution with less than 2 seconds of latency, from ingestion to alert. 
+
+1. Analytics: Combine 1000s of time series with aggregation functions
+2. Alerts: Establish which data to evaluate against alert rules, with no reconfiguration as service membership changes
+3. Integrations: Collect CloudWatch metrics and sync AWS EC2 metadata with turnkey integrations
+4. Dashboards & Charts: Compose custom charts using an easy-to-use chart builder
+5. Graphite Migration: Forward Graphite metrics non-disruptively into SignalFx with StatsD/carbon-compatible metricsproxy
+6. Operations & Administration: Comprehensive API coverage
+
