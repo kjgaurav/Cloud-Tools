@@ -1,5 +1,19 @@
 Container Scheduling & Orchestration
 1. Rancher Labs
+Rancher is a complete software stack for teams adopting containers.
+It addresses the operational and security challenges of managing multiple Kubernetes clusters across any infrastructure,
+while providing DevOps teams with integrated tools for running containerized workloads.
+
+Rancher deploys and manages Kubernetes clusters on any provider, anywhere in the world.
+It includes all of the tools for running Kubernetes in the enterprise,
+including all of the resources for both operations and development teams.
+Businesses who use Rancher see a marked improvement in Kubernetes reliability and adoption over alternative solutions.
+
+How Is Rancher Different?
+Rancher is a complete solution for deploying and managing Kubernetes.
+Better than an installer or a platform, it fits perfectly with every part of container orchestration strategy.
+
 2. Docker
+
 3. Pivotal
 4. Platform9
