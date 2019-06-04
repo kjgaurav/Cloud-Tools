@@ -79,5 +79,16 @@ resource requirements and to dynamically match their needs to optimal cloud supp
 
 
 
+CloudCheckr
+CloudCheckr is a vendor that provides a cloud management platform. The platform, which supports public cloud deployments in Amazon Web Services (AWS), Microsoft Azure and Google Cloud Platform,
+public cloud customers more visibility and control over cloud computing costs, performance and security.
+
+CloudCheckr major features and tools
+1. Cost management: The platform enables an enterprise to track its total spend across various cloud computing resources, such as virtual machine instances, and providers.
+2. Security and compliance: CloudCheckr software proactively monitors users' activity on public cloud platforms, and enables administrators to implement Identity and Access Management (IAM) to control user access.
+3. Resource inventory and utilization: The platform centralizes data about an organization's cloud deployment, and provides dashboards, summaries and other types of reports to help an administrator track resource usage. 
+
+
+
 
 
