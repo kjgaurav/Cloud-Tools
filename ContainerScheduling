@@ -15,5 +15,29 @@ Better than an installer or a platform, it fits perfectly with every part of con
 
 2. Docker
 
+Independent container platform that enables organizations to seamlessly build,
+share and run any application, anywhere—from hybrid cloud to the edge.
+
+The Docker Engine is the underlying client-server tool that supports container technology to handle the tasks and workflows involved
+in building container-based applications.
+The engine creates a server-side daemon process that hosts images, containers, networks and storage volumes.
+The daemon also provides a client-side command-line interface (CLI) that allows users to interact with the daemon through
+the Docker application programming interface. Containers created by Docker are called Dockerfiles.
+
+Docker Compose files define the composition of components in a Docker container.
+
+Docker Hub is a software-as-a-service tool that enables users to publish and share container-based applications through a common library.
+The service touts more than 100,000 publically available applications, as well as public and private container registries.
+
+Docker swarm mode in Docker Engine supports cluster load balancing for Docker.
+With Docker swarm mode, multiple Docker host resources are pooled together to act as one, which enables users to quickly scale up container
+deployments to multiple hosts.
+
+What makes Docker containers so popular and more attractive in some cases than virtual machines? 
+The answer is density. Here’s what it means and why it matters.
+In the context of computing, density refers to the number of objects that a single physical server can run at one time.
+If a server can host lots of apps at once by making full use of its resources, it supports a dense deployment environment.
+In contrast, if the server only runs a handful of apps and its total capacity is underutilized, then it’s a sparse environment.
+
 3. Pivotal
 4. Platform9
