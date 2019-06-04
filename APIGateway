@@ -1,4 +1,11 @@
 1. Apigee
+
+Apigee Edge is a platform for developing and managing API proxies. Think of a proxy as an abstraction layer that "fronts" for your backend service APIs and provides value-added features like security, rate limiting, quotas, analytics, and more. The primary consumers of Edge API proxies are app developers who want to use your backend services.
+
+With Apigee, we can build API proxies—RESTful, HTTP-based APIs that interact with services. With easy-to-use APIs, developers can be more productive, increasing your speed to market.
+
+API proxies give full power of Apigee's API platform to secure API calls, throttle traffic, mediate messages, control error handling, cache things, build developer portals, document APIs, analyze API traffic data, protect against bad bots, and more.
+
 2. Akana
 3. IBM API Connect
 4. 3 Scale
