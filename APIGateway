@@ -7,6 +7,20 @@ With Apigee, we can build API proxies—RESTful, HTTP-based APIs that interact w
 API proxies give full power of Apigee's API platform to secure API calls, throttle traffic, mediate messages, control error handling, cache things, build developer portals, document APIs, analyze API traffic data, protect against bad bots, and more.
 
 2. Akana
+
+The Akana API Gateway solution streamlines management, deployment, development and operation of APIs, enhancing security and regulatory compliance through authentication, authorization and audit capabilities. It provides central definition and management of security, routing, orchestration, mediation, auditing, threat protection, and other operational governance policies across multiple instances. The Gateway enables enterprises to standardize API and service delivery with high security, performance and availability.
+
+Key Features include:
+
+1. Authentication and Authorization : Choose from a wide array of authentication schemes, standards and token types to ensure that only valid users and applications get access
+2. Message Security : Ensure the privacy of data in flight and at rest (a key requirement for PCI Compliance)
+3. Threat Protection : Prevent Denial of Service (DoS) attacks, malformed messages or excessive XML/JSON depth and breadth.
+4. Orchestration, Mediation and Transformation : Bi-directional protocol transformation - Convert existing SOAP or Plain-old-XML (POX) over MQ or JMS services into RESTful APIs with XML and/or JSON content
+5. Analytics and Monitoring : Real-time system monitoring – Use the Web-based dashboards to get real-time visibility into service and API performance, dependencies, and alert status
+6. Unified API and SOA : Define and Manage API's- Create APIs with multiple interfaces using different standards including REST/XML, REST/JSON and SOAP with no extra development effort
+7. Deploy in the cloud, or on-premises : On-Premise or in the Cloud – You can choose how and where you deploy to best meet the need of your business
+
+
 3. IBM API Connect
 4. 3 Scale
 5. WSO2 APIManager
