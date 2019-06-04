@@ -22,6 +22,24 @@ Key Features include:
 
 
 3. IBM API Connect
+
+
+IBM API Connect
+
+API Connect is a cloud service from IBM that enables the creation and management of APIs, with built-in security and governance.
+
+IBM® API Connect™ is for organizations looking to streamline and accelerate their journey into the API economy. It’s a comprehensive management solution that addresses all four aspects of the API lifecycle: create, run, manage and secure. API Connect is far more cost-effective than limited point solutions that focus on just a few lifecycle phases. It enables external and internal consumers to accelerate an organization’s API program and capture new revenue through compelling new customer experiences.
+
+IBM API Connect features :
+
+1. API creation : Automated, model-driven tools to create new APIs and microservices based on Node.js and Java runtimes—all managed from a single unified console.
+2. Security and API management : Security, traffic management and mediation policies to ensure APIs and data are protected.  Simple management of APIs, versions, lifecycle, subscription plans and subscribers.
+3. API socialization : Self-service developer portal to empower internal and external developers to discover, consume and access APIs.
+4. API Testing and Monitoring : Automated and collaborative API testing and monitoring without any coding, easily integrated into your CI/CD pipeline.
+5. Built-in analytics : API usage analytics for both API providers and consumers, with runtime and historical reporting on usage patterns and performance metrics.
+6. Multi-Cloud Design : API Connect offers secure multi-cloud support to deploy components on Docker, AWS, Azure, IBM Cloud private and more.
+
+
 4. 3 Scale
 5. WSO2 APIManager
 6. Mashery
