@@ -11,4 +11,28 @@ Key Features:
 3. Platform Support: Container observability requires context. Overlay data from your Cloud Native platforms such as Kubernetes to understand the behavior of your microservices.
 
 2. Datadog
+Datadog is a monitoring service for cloud-scale applications, providing monitoring of servers, databases, tools, and services, through a SaaS-based data analytics platform. 
+
+With turn-key integrations, Datadog seamlessly aggregates metrics and events across the full devops stack.
+
+    SaaS and Cloud providers
+    Automation tools
+    Monitoring and instrumentation
+    Source control and bug tracking
+    Databases and common server components
+    All listed integrations are supported by Datadog
+
+Features:
+
+The features that Datadog offers include:
+
+    1. Provides an IT/DevOps team with a single view of their infrastructure (including servers, apps, metrics and other services).
+    2. Customizable dashboards.
+    3. Alerts based on critical issues.
+    4. Support for over 250 product integrations.
+    5. Can automatically collect and analyze logs, latency and error rates.
+    6. Allows for access to the API.
+    7. Supports applications written in languages such as Java, Python, PHP, .NET, Go, Node and Ruby.
+
+
 3. SignalFX
