@@ -38,3 +38,25 @@ Any cloud platform, including:
 2. Amazon Web Services (AWS)
 3. VMware vCloud Director
 4. Google Cloud
+
+
+
+
+
+
+
+Galactic Fog
+
+Galactic Fog offers its Gestalt platform that provides a control plane to help organizations adopt, build, deploy,
+and manage cross-cloud, enterprise function-as-a-service (FaaS), cloud-as-a-service (CaaS), and future cloud technologies.
+It ties into the AWS Lambda ecosystem and runs on top of CaaS platforms like Kubernetes and Mesos DC/OS.
+
+
+Spotinst
+
+Spotinst offers its fully managed Functions platform that allows for the running of code regardless of cloud environment.
+The platform offers a cloud- and vendor-agnostic alternative to offerings like Lambda, Google Cloud Functions, and Azure Functions.
+Its Functions Document Store that allows developers to store new data with a single API call. This provides quicker access to that 
+data for spinning up new applications.
+
+
