@@ -1,4 +1,15 @@
 1. Mulesoft
+
+MuleSoft is a vendor that provides an integration platform to help businesses connect data, applications and devices across on-premises and cloud computing environments.
+
+The company's platform, called Anypoint Platform, includes various tools to develop, manage and test application programming interfaces (APIs), which support these connections.
+
+1. Collaborate : Accelerate development speed by reusing prebuilt APIs, connectors, templates, examples, and other integration assets. Collaborate more effectively with teams by rating and commenting on any asset to improve quality, and build a customized, branded API portal to increase API engagement and adoption
+2. Connect : Build APIs and integrations faster using reusable assets with clicks or code — whether it is through a web interface or a desktop IDE. Transform data automatically using machine learning-based recommendations, test your APIs and integrations, and plug into your CI/CD pipeline with built-in support for Maven and Jenkins.
+3. Secure : Get out-of-the-box compliance for ISO 27001, SOC 2, PCI DSS, and GDPR, and secure your enterprise automatically with prebuilt and custom policies. Protect sensitive data through format-preserving tokenization using policies, and establish secure perimeters around data, APIs, microservices, and integrations. 
+4. Run : Use Mule, a lightweight, scalable runtime engine for APIs, integrations, and microservices. Deploy anywhere — on-premises, to the cloud, or both. Ensure 99.99% uptime with CloudHub, which handles over 60 billion transactions per month. Reap the benefits of Kubernetes and Docker to deploy to AWS, Azure, or on-premises using Anypoint Runtime Fabric.
+5. Manage : Understand the health of your application network with a real-time, graphical view of your APIs and integrations. Customize dashboards, API functional tests, and alerts to monitor business-critical initiatives. Decrease mean time to resolution with application performance management, logging, and business operations metrics in one view. 
+
 2. Dell Boomi
 3. SnapLogic
 4. Tibco
