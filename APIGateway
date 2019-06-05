@@ -41,6 +41,20 @@ IBM API Connect features :
 
 
 4. 3 Scale
+
+Red Hat® 3scale API Management makes it easy to manage your APIs. Share, secure, distribute, control, and monetize your APIs on an infrastructure platform built for performance, customer control, and future growth. Place 3scale components on-premise, in the cloud, or on any combination of the two.
+
+Features & Benefits:
+
+1. API traffic control : Use self-managed or cloud components that provide traffic control, security, and access policy enforcement.
+2. API program management : Centralize control of your API program—including analytics, access control, monetization, developer workflows, and more.
+3. OpenShift integration : Build and run high-performance applications in a contained and automated way.
+4. Hybrid cloud support across all components : Design your API management the way you want it—in the cloud, on-premise, or any combination of the two.
+5. Red Hat Fuse integration : Business users, integration experts, and application developers can take advantage of Red Hat Fuse to create APIs easily and quickly.
+6. Comprehensive security : A wide range of encryption, authentication, and authorization protocols are supported.
+
+
+
 5. WSO2 APIManager
 6. Mashery
 7. Apiary
