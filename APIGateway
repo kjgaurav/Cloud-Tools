@@ -71,4 +71,33 @@ Key Features:
 
 
 6. Mashery
+
+TIBCO Cloud™ Mashery® API Management Platform
+The cloud-native API platform you can deploy anywhere, and manage APIs from everywhere
+
+TIBCO Cloud™ Mashery® delivers market-leading full lifecycle API management capabilities for enterprises adopting cloud-native development and deployment practices, such as DevOps, Microservices, and Containers. Its rich set of capabilities includes API creation, productization, security, and analytics of your API program and community of developers.
+
+Key Features & Benefits:
+
+1.CREATE your APIs from any data source : Model any data source and utilize contract-first modeling, with native OpenAPI Spec, plus native Node.js hosting of API implementations. Architect your cloud-native apps with API choreography, event-driven APIs, and other non-REST protocols for API creation.
+
+2. PRODUCTIZE private, partner, and public APIs : Define API products and take them to market through defined packaging, cataloguing, and discoverable API products, including API-led microservices within Kubernetes. Engage and manage your community of API consumers, using developer API portals.
+
+3. SECURE your APIs through robust authentication : Mashery® provides a wide range of policies for fine-grained control over how, when, and from where your user community can access your APIs. Define access & security policies like rate limiting and throttling between different consumers and utilize a single system management of traffic for your API gateway and embedded microgateways.
+
+4. ANALYZE performance of your program in real-time: Monitor and visualize custom operational and usage-based KPIs at the executive summary level, or utilize deeper, endpoint-level drilldown. Visualize API Analytics within Mashery® or export batch or streaming data for advanced analytics using tools like TIBCO® Spotfire.
+
+5. Deploy Anywhere : The solution can be deployed on any public cloud, private cloud, or containerized on-premise, while also being compatible with any PaaS.
+
+6. Manage APIs from Everywhere : Manage APIs through a single pane of glass regardless of whether your API-led services are running in the cloud, on-premise, or at the edge.
+
+7. Cloud-native Design : Develop and deploy your API-led microservices faster, with an API platform designed for your cloud-native tooling and DevOps processes.
+
+8. Enterprise Scale & Security : Develop and deliver your API program at unlimited scale while leveraging best-in-class API security capabilities and standards certifications.
+
+9. Business of APIs® : Drive API-led digital innovation internally, grow B2B partnerships, create new business models, and expand your distribution channels.
+
+10. Agility for Digital Business : Leverage an API-led strategy to connect your enterprise with a catalog of iterative, reusable services that enables the agility to innovate at the pace of digital.
+
+
 7. Apiary
