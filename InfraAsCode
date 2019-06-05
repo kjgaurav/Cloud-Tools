@@ -13,5 +13,18 @@ Key Features:
 7. Application Deployment: When we define our application with Ansible, and manage the deployment with Ansible Tower, teams are able to effectively manage the entire application life cycle from development to production.
 
 2. Chef
+
+Chef is an automation tool that provides a way to define infrastructure as code. Infrastructure as code (IAC) simply means that managing infrastructure by writing code (Automating infrastructure) rather than using manual processes. It can also be termed as programmable infrastructure. Chef uses a pure-Ruby, domain-specific language (DSL) for writing system configurations. Below are the types of automation done by Chef, irrespective of the size of infrastructure:
+
+    Infrastructure configuration
+    Application deployment 
+    Configurations are managed across your network
+    
+1. Chef uses popular Ruby language to create a domain-specific language.
+2. Chef does not make assumptions on the current status of a node. It uses its mechanisms to get the current status of machine.
+3. Chef is ideal for deploying and managing the cloud server, storage, and software.
+4. Lower barrier for entry − As Chef uses native Ruby language for configuration, a standard configuration language it can be easily picked up by anyone having some development experience.
+5. Excellent integration with cloud − Using the knife utility, it can be easily integrated with any of the cloud technologies. It is the best tool for an organization that wishes to distribute its infrastructure on multi-cloud environment.
+
 3. Puppet
 4. Terraform
