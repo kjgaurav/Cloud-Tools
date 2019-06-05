@@ -56,5 +56,19 @@ Features & Benefits:
 
 
 5. WSO2 APIManager
+WSO2 API Manager is an open source approach that addresses full API lifecycle management, monetization, and policy enforcement. It allows extensibility and customization, and ensures freedom from lock-in.
+
+WSO2 API Manager is a unique open approach to full lifecycle API development, integration and management. As part of the larger WSO2 Integration Agile Platform, it is a central component used to deploy and manage API-driven ecosystems. It’s hybrid integration capabilities further simplify projects that span traditional as well as microservice environments. And unlike other API and lifecycle management products, it is fully open-source allowing for extensibility and customization.
+
+Key Features:
+1. API Gateway and Microgateway :Secure, low-latency access to microservices via WSO2 API Microgateway eliminates the need for a central gateway by enabling enterprises to apply API management policies in a decentralized fashion.
+2. Hybrid API Management : Hybrid SaaS API management solutions enable you to get the best of both worlds, by delivering the benefits of on-premise, with minimal infrastructure overhead of cloud.
+3. Integration with Istio : Integrates out-of-the-box with Istio to allow APIs from the service mesh to be securely exposed and managed
+4. API Security : Authenticate and authorize API requests from any client or device type making requests to resource servers operating on traditional and microservice architectures.
+5. API Store (Developer Portal) : An API marketplace incorporates business and human aspects that encourage API developers by providing tools, documentation, incentives such as monetization and supporting activities like evangelism, workshops, and hackathons.
+6. Collaborative API and Application Lifecycle Management : Enables the design, implementation and documentation of APIs with business planning. Facilitates the management of the API Lifecycle across environments, data centers, and regions.
+7. Business Insights and Anomaly Detection : Monitors system behavior, as well as API and application usage at operations and business levels.
+
+
 6. Mashery
 7. Apiary
