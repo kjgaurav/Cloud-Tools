@@ -1,4 +1,17 @@
 1. Ansible
+
+Ansible is an open source IT Configuration Management, Deployment & Orchestration tool. It aims to provide large productivity gains to a wide variety of automation challenges. This tool is very simple to use yet powerful enough to automate complex multi-tier IT application environments.
+
+Key Features:
+
+1. Simple: Ansible uses a simple syntax written in YAML called playbooks. YAML is a human-readable data serialization language.
+2. Agentless: Finally, Ansible is completely agentless. There are no agents/software or additional firewall ports that you need to install on the  client systems or hosts which you want to automate.
+3. Powerful & Flexible: Ansible has powerful features that can enable us to model even the most complex IT workflows.
+4. Configuration Management : Ansible is designed to be very simple, reliable and consistent for configuration management. 
+5. Orchestration: Ansible provides Orchestration in the sense of aligning the business request with the applications, data, and infrastructure.
+6. Security and Compliance: When we define our security policy in Ansible, scanning and remediation of site-wide security policy can be integrated into other automated processes. And it’ll be integral in everything that is deployed. It means that, you need to configure your security details once in your control machine and it will be embedded in all other nodes automatically. 
+7. Application Deployment: When we define our application with Ansible, and manage the deployment with Ansible Tower, teams are able to effectively manage the entire application life cycle from development to production.
+
 2. Chef
 3. Puppet
 4. Terraform
