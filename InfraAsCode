@@ -27,4 +27,24 @@ Chef is an automation tool that provides a way to define infrastructure as code.
 5. Excellent integration with cloud − Using the knife utility, it can be easily integrated with any of the cloud technologies. It is the best tool for an organization that wishes to distribute its infrastructure on multi-cloud environment.
 
 3. Puppet
+
+Puppet is a Configuration Management tool that is used for deploying, configuring and managing servers. It performs the following functions:
+
+    Defining distinct configurations for each and every host, and continuously checking and confirming whether the required configuration is in place and is not altered (if altered Puppet will revert back to the required configuration) on the host.
+    Dynamic scaling-up and scaling-down of machines.
+    Providing control over all your configured machines, so a centralized (master-server or repo-based) change gets propagated to all, automatically.
+
+1. Infrastructure automation :Define and continually enforce IT configurations no matter where your infrastructure lives.
+2. Automated provisioning : Automate provisioning across your heterogeneous IT infrastructure.
+3. Application release automation : Get full control over and visibility over your software delivery process.
+4. Task management :Make changes or remediate urgent problems alongside your model-driven automation management.
+5. Visualization & reporting : Gain insight into your infrastructure, audit changes, and get rich reporting in a full-featured graphical console.
+6. Orchestration : Orchestrate change with control, visibility, and automated intelligence. 
+7. Code management : Manage infrastructure as code using your favorite version control systems to better enable continuous delivery.
+8. Node management :Define your infrastructure as code and save yourself the manual work of classifying and managing nodes.
+9. Discovery & insights : Quickly discover resources that need automated management, and drive change with confidence.
+10. Role-based access control : Assign permissions to teams in line with company and regulatory policies.
+11. Support, services & training : Get access to world-class education, training and support to get up and running faster.
+
+
 4. Terraform
