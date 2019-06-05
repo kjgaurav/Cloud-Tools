@@ -48,3 +48,18 @@ Puppet is a Configuration Management tool that is used for deploying, configurin
 
 
 4. Terraform
+
+Terraform is a tool for building, changing and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
+
+1. Infrastructure as Code: The infrastructure is described using an advanced configuration language. It can be changed, shared and re-used.
+2. Execution Plans: Terraform has a planning strategy where it executes a dry run to the configuration. It shows the changes to be made to infrastructure even before making the actual changes.
+3. Resource Graph: The tool creates a graph of all the resources and shows the dependency on one another.
+4. Change Automation: The changes can be made to your infrastructure with very less human intervention avoiding possible human error.
+5. Orchestration: All the configuration management tools were created for server configuration and their primary goal was to install and manage the software already existed in the server / virtual machine.
+6. Multi-Provider: This is the most versatile feature of Terraform that it supports multi-cloud orchestration such as AWS, Azure, OpenStack, etc as well as on-premises deployments
+7. Immutable infrastructure: When Chef, Salt, Puppet, and Ansible runs any software updates on servers, this can quite often lead to a configuration drift when differences in the configuration lead to bugs that can lead to security breaches. 
+8. Syntax: Terraform uses a custom language known as HCL (HashiCorp Configuration Language). This language was designed to compromise the human readable and the machine friendly languages.
+9. Dry Runs: One another advantages of Terraform is that it supports something called Plan. This looks at the Terraform file and determines the changes you are going to make in the infrastructure before actually making it.
+10. Client-only architecture: Terraform leverages the cloud provider’s API for provisioning the infrastructure which eliminates the need for additional checks and also running the configuration management system in a separate server. 
+11. Super Portability: You have only one tool and one language for describing the infrastructure for multiple cloud providers. Migrating to vendors is not a problem anymore. 
+
