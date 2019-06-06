@@ -62,5 +62,24 @@ Key Features:
 
 
 4. Tibco
+
+TIBCO Cloud™ Integration is the integration platform as a service (iPaaS) for users of all skill sets—business users, integration specialists, or developers who need maximum speed and flexibility. Accessible as a secure, multi-tenant, and cloud-based service, TIBCO Cloud Integration allows you to rapidly connect your critical cloud and on-premises business applications and data sources.
+
+1. Establish an Agile Information Landscape : With TIBCO, not only are you able to manage your integration applications as APIs, you can use an API-led approach to integration. Your API product managers can create, publish, secure, and analyze your API products, creating a seamless, connective tissue across your digital business that is based on easy to connect, standard interfaces.
+
+2. Connect Business Applications Quickly : Make it easy for your business analysts and application owners to connect a wide variety of SaaS applications, databases, and business applications including CRM, ERP, and marketing automation systems. Enable them to quickly wire applications and data together using business logic defined through a web browser-based, drag-and-drop interface.
+
+3. Integrate Mission-critical Applications : Give your integrators the tools they need to create highly customizable and scalable integrations that meet your unique enterprise requirements. Enable them to deploy enterprise integration patterns based on APIs that are implemented visually within an environment that embeds DevOps capabilities.
+
+4. Develop Integrations for Digital Moments : Your application developers can use embedded open source Project Flogo® software to capture important digital events in real time—such as from IoT devices and customer engagement events created with APIs—and trigger flows that process these events in real time.
+
+5. Accelerate Your Integrations: Empower a broad set of users with tailored experiences that enable them to integrate applications and data themselves. Arm them with pre-built connectors that speed connectivity to a wide variety of endpoints and technologies.
+
+6. Deploy & Access Anywhere : Connect to your information assets no matter where you host them, with the flexibility to deploy integration apps on-premises, within containers, or to public clouds, serverless environments, and edge devices.
+
+7. Deliver Insights & Opportunities : Tap into the transformative power of APIs to build a foundation that helps your business operate and adapt faster, automate decision-making, and use data to inspire innovation by quickly combining technology services using standard interfaces.
+
+
+
 5. Informatica
 6. Jboss Fuse
