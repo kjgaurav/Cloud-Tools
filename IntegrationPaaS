@@ -82,4 +82,28 @@ TIBCO Cloud™ Integration is the integration platform as a service (iPaaS) for 
 
 
 5. Informatica
+
+Informatica Intelligent Cloud ServicesIntegration Cloud, a component of Informatica Intelligent Cloud Services (IICS), is offered as an iPaaS that provides near universal access to application data regardless of its location, format, or origin and integrates applications and application processes regardless of where they are deployed.
+
+Integration Cloud provides the ability to move and migrate existing enterprise business applications to public and private cloud solutions as well as allowing for continued co-existence with on-premises applications and systems.
+
+Key Features:
+
+1. Cloud Data Integration : High-performance ETL, ELT, ingestion, synchronization, and replication for a multi-cloud, hybrid world.
+
+2. Cloud API and Application Integration : Reimagine API, process, and application integration in a multi-cloud, hybrid world.
+
+3. API Management : Reimagine multi-cloud, hybrid integration, with intelligent APIs.
+
+4. Cloud B2B Gateway : Quickly onboard and manage partners with state-of-the-art partner integration.
+
+5. Cloud Integration Hub : Modernize integration with a high-performance, governed pub/sub data hub.
+
+6. Master Data Management Cloud : Deliver exceptional customer experiences and optimize business processes with a trusted view of master data. 
+
+7. Data Quality and Governance Cloud: Improve analytics, fuel data governance programs, and ensure your customer
+data is valid and accurate.
+
+8. Data Security Cloud : Protect sensitive and private data, improve compliance, and enforce use policies.
+
 6. Jboss Fuse
