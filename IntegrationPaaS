@@ -107,3 +107,19 @@ data is valid and accurate.
 8. Data Security Cloud : Protect sensitive and private data, improve compliance, and enforce use policies.
 
 6. Jboss Fuse
+
+Red Hat Fuse is a distributed, cloud-native integration solution that has the flexibility to service diverse users - including integration experts, application developers, and business users - each with their own choice of deployment, architecture, and tooling. The result is an integration solution that supports collaboration across the enterprise.
+
+1. Distributed infrastructure: Developing integration solution can be complex, and gets more hectic when the deployments are distributed on the cloud. Fuse, has its core integration capability based on the popular and versatile Apache Camel, provides predefined Enterprise Integration Patterns (EIPs) and over 200 connectors, are deployed on  container-native infrastructure to adapt easily and scale quickly.
+
+2. Low-code interface : Tooling allows developers and non-technical users to drag and drop predefined services and integration patterns so business units can self-serve and continuously innovative.
+
+3. API First : Building an API-based architecture with Red Hat Fuse could not be easier. Red Hat Fuse is intuitive and simple to configure using Camel REST. Further, developers can design and document, RESTful APIs using Swagger technology for better collaboration. With Red Hat 3scale API Management, API security, performance, control and monetization are managed for you.
+
+4. Container-Based Architecture : With the freedom to develop and manage services in popular container standards -  including OSGI-based Apache Karaf, Java EE based JBoss EAP, and Spring-Boot. Fuse - you can package and deploy lightweight containers in distributed environments to allow for fault isolation and consistence settings.
+
+5. Continuous Improvement : A simplified pipeline construction enables faster and safer software delivery. Jenkins allows for automatic testing, enable deployment and release best practices, and with native Continuous Integration and Deployment support, Fuse allows teams to work more collaboratively with faster software delivery.
+
+6. Hybrid Deployment :Use Red Hat Fuse on-prem, in public/private clouds, or as a hosted service and have all integration infrastructure work seamlessly together allowing users to collaborate across the enterprise.
+
+
