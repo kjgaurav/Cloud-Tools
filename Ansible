@@ -87,6 +87,34 @@ Ansible features over 1,300+ modules in the core distribution, providing a great
 
 From services and databases to cloud providers, with Ansible you don't have to start from scratch.
 
+3). Application Deployment
+DEPLOYING APPS SHOULDN'T BE SO HARD
+Ansible is the simplest way to deploy your applications. It gives you the power to deploy multi-tier applications reliably and consistently, all from one common framework. You can configure needed services as well as push application artifacts from one common system.
+
+Rather than writing custom code to automate your systems, your team writes simple task descriptions that even the newest team member can understand on first read - saving not only up-front costs, but making it easier to react to change over time.
+
+POWER OF THE PLAYBOOKS
+REPEATABLE & RELIABLE
+Ansible allows you to write 'Playbooks' that are descriptions of the desired state of your systems, which are usually kept in source control. Ansible then does the hard work of getting your systems to that state no matter what state they are currently in. Playbooks make your installations, upgrades and day-to-day management repeatable and reliable.
+
+SIMPLE TO WRITE & MAINTAIN
+Playbooks are simple to write and maintain. Most users become productive with Ansible after only a few hours. Ansible uses the same tools you likely already use on a daily basis and playbooks are written in a natural language so they are very easy to evolve and edit.
+
+NO AGENT = MORE SECURE, MORE PERFORMANCE, LESS EFFORT
+Thanks to its agentless design, Ansible can be introduced into your environment without any bootstrapping of remote systems or opening up additional ports. Not only does this eliminate "managing the management," but system resource utilization is also dramatically improved.
+
+BATTERIES INCLUDED
+Leverage one giant toolbox. Shipping with over 1,300+ modules in the core distribution, Ansible provides a vast library of building blocks for managing all kinds of IT tasks and network software. With Ansible Galaxy, chances are there are community-contributed roles that can help get you started even faster.
+
+ZERO DOWNTIME
+Ansible can orchestrate zero downtime rolling updates trivially, ensuring you can update your applications in production without users noticing.
+
+SUPER FLEXIBLE
+Downloading artifacts from servers and configuring the OS are just the basics. Talk to REST APIs, update a team chat server with a heads up, or send an email - Ansible can drive all kinds of workflows.
+
+CLOUD READY
+Included modules manage not just the local computer system, but can interact with cloud services including Amazon AWS, Microsoft Azure, and more. And since all cloud APIs allow you to trivially inject SSH keys, you can start managing any cloud instance or network software without modifying the base image.
+
 
 
 
