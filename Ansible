@@ -170,5 +170,28 @@ Once you’ve defined your security configuration, you need to be able to verify
 
 If you want to verify your automation outside of your automation, Ansible’s task-based nature makes it easy to write content using tools such as OpenSCAP and STIGMA to verify your automation. And Ansible Tower’s fact gathering can be directly integrated with common logging and analytics providers to build a wealth of data on your infrastructure, allowing you to simply see any deviations in your systems.
 
+6). Orchestration
 
+Complex orchestration? Simple solutions.
+Deploying a single service on a single machine can be fairly simple and you have lots of solutions to choose from. You can bake all your configuration into a virtual image, or you can run a configuration management tool (we recommend Ansible, of course). But no one deploys a single service on a single machine any more. Today’s IT brings complex deployments and complex challenges. You’ve got to deal with clustered applications, multiple datacenters, public, private and hybrid clouds and applications with complex dependencies. You need a tool that can orchestrate your complex tasks simply. You need Ansible.
 
+Building order from chaos
+Orchestration is about bringing together disparate things into a coherent whole. In the classical sense, you’ve got strings, brass, woodwinds and percussion, all with their own separate sheet music. It’s up to the conductor to ensure everyone is properly playing their part and organize them in order to produce harmony instead of cacophony.
+
+Your application deployments are no different. You’ve got frontend and backend services, databases, monitoring, networks and storage. Each has their own role to play with their own configuration and deployment and you can’t just turn them all on at once and expect that the right thing happens. What you need is an orchestration tool that can ensure all these tasks happen in the proper order - that the database is up before the backend server, that the frontend server is removed from the load balancer before it’s upgraded, that your networks have their proper VLANs configured. Ansible’s clear syntax and task-based nature makes orchestrating these tasks easy.
+
+Take this gig on the road
+Once you’ve orchestrated and arranged your musical composition, it becomes available for anyone to use at any level - from the London Philharmonic to your local middle school concert band. Similarly, Ansible’s orchestration allows you to define your infrastructure once and use it wherever and however you need. Once you’ve got Ansible playbooks that describe your multi-node production infrastructure, you can then use the same orchestration to deploy it on your laptop for testing. Or in your private OpenStack cloud for testing. Using Ansible’s roles for reusability and Ansible’s extensive library of modules makes it easy to replicate your complex deployments wherever needed.
+
+Your software stack, simplified
+There are many different kinds of complex IT orchestrations. Let’s take OpenStack as an example. The OpenStack cloud platform is built on a variety of separate interlocking services - including separate services for storage, networking, identity and more. Each of these services has their own dependencies on other services and other components and each has their own separate configurations and sequences for deployment and upgrading. Attempting to deploy, operate and upgrade an OpenStack cloud can be a complex and daunting task.
+
+That’s why, across the industry, Ansible is used to orchestrate OpenStack rollouts. Companies like Rackspace, CSC, HP, Cisco and IBM rely on Ansible to keep their OpenStack clouds available simply and securely.
+
+Conducting the conductors
+The need for orchestration in complex IT environments is not new and you’ll find that many ecosystems have their own orchestrators already. Tools like OpenStack’s Heat, Amazon’s CloudFormations, or Docker’s Swarm are all about orchestrating tasks in those environments. But what are the chances that you’re going to be able to constrain your orchestration to just one environment?
+
+That’s where Ansible comes in. Ansible’s library of modules and easy extensibility, makes it simple to orchestrate different conductors in different environments, all using one simple language. Your admins don’t need to remember 12 different syntaxes - now they can concentrate on one.
+
+You've freed yourself, now go and free the others
+You’ve written your Ansible playbooks and orchestrated your deployments and rollouts. You can now kick back and relax… but how do you let everyone else do so as well? That’s where Red Hat® Ansible® Tower comes in. With Ansible Tower’s self-service surveys, you can delegate your complex orchestration to whomever in your organization needs it. Sales team needs to set up customer environments? Just enter a couple of parameters, click and go - everything is provisioned and set up for them. With Ansible and Ansible Tower, orchestrating the most complex tasks becomes merely the click of a button even for the non-technical people in your organization.
