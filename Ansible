@@ -37,27 +37,55 @@ Provisioning with Ansible allows you to seamlessly transition into configuration
 
 Infrastructure Platforms
 Baremetal
-
 Underneath virtualization and cloud platforms there is always the physical server. When it's your own cloud or hypervisor system you still need to provision bare metal some of the time. Ansible integrates with many datacenter management tools to both invoke and enact the provisioning steps required.
+
 Virtualized
-
 Hypervisors, virtual storage and virtual networks – the transition from physical devices as the base platform has opened up increasingly diverse scenarios at previously unavailable scale. Tame the complexity with Ansible to simplify the experience of cross platform management. The large selection of available modules gives you the flexibility and choice to manage your diverse environment.
+
 Networks
-
 Ansible Network Automation allows users to configure, validate and ensure continuous compliance for physical network devices. Ansible is the only language that can easily provision across multi-vendor environments, often replacing the need for manual processes that exist across network environments.
-Storage
 
+Storage
 Ansible can provision and manage the storage in your infrastructure. From software-defined  storage, cloud based storage, or even hardware storage appliances, you can find a module to leverage Ansible’s common, powerful language.
+
 Cloud
 Public Cloud
-
 Ansible is packaged with hundreds of modules supporting services on the largest public cloud platforms. Compute, storage and networking modules allow playbooks to directly provision these services. Ansible can even act as an orchestrator of other popular provisioning tools, giving you a high level, self documented, workflow.
+
 Private Cloud
-
 One of the easiest ways to deploy, configure and orchestrate OpenStack private cloud is using Ansible. Ansible can be used to provision the underlying infrastructure, install services, add compute hosts, and more. Once the underlying environment is provisioned, Ansible can also be used provision resources, services, and applications inside of your cloud.
-Self-Service with Ansible Tower
 
+Self-Service with Ansible Tower
 Red Hat Ansible Tower helps you scale IT automation, manage complex deployments and speed productivity. Centralize and control your IT infrastructure with a visual dashboard, role-based access control, job scheduling, integrated notifications and graphical inventory management. And Ansible Tower's REST API and CLI make it easy to embed Ansible Tower into existing tools and processes.
+
+
+2). CONFIGURATION MANAGEMENT
+KEEP IT SIMPLE
+It's likely you currently manage your systems with a collection of scripts and ad-hoc practices curated by a talented team of administrators. Or perhaps you're using an automation framework that requires a bit too much of your time to maintain. Virtualization and cloud technology have increased the complexity and the number of systems to manage is only growing.
+
+You need a consistent, reliable and secure way to manage the environment - but many solutions have gone way too far the other direction, actually adding complexity to an already complicated problem. You need a system that builds on existing concepts you already understand and doesn’t require a large team of developers to maintain.
+
+ANSIBLE MAKES IT AUTOMATION ACCESSIBLE
+Ansible is the simplest solution for configuration management available. It's designed to be minimal in nature, consistent, secure and highly reliable, with an extremely low learning curve for administrators, developers and IT managers.
+
+Ansible configurations are simple data descriptions of your infrastructure (both human-readable and machine-parsable) - ensuring everyone on your team will be able to understand the meaning of each configuration task. New team members will be able to quickly dive in and make an impact. Existing team members can get work done faster - freeing up cycles to attend to more critical and strategic work instead of configuration management.
+
+Ansible requires nothing more than a password or SSH key in order to start managing systems and can start managing them without installing any agent software, avoiding the problem of "managing the management" common in many automation systems. There's no more wondering why configuration management daemons are down, when to upgrade management agents, or when to patch security vulnerabilities in those agents.
+
+GOAL-ORIENTED, NOT SCRIPTED
+Ansible features an state-driven resource model that describes the desired state of computer systems and services, not the paths to get them to this state. No matter what state a system is in, Ansible understands how to transform it to the desired state (and also supports a "dry run" mode to preview needed changes). This allows reliable and repeatable IT infrastructure configuration, avoiding the potential failures from scripting and script-based solutions that describe explicit and often irreversible actions rather than the end goal.
+
+SECURE & AGENTLESS
+Ansible relies on the most secure remote configuration management system available as its default transport layer: OpenSSH. OpenSSH is available for a wide variety of platforms, is very lightweight and when security issues in OpenSSH are discovered, they are patched quickly.
+
+Further, Ansible does not require any remote agents. Ansible delivers all modules to remote systems and executes tasks, as needed, to enact the desired configuration. These modules run with user-supplied credentials, including support for sudo and even Kerberos and clean up after themselves when complete. Ansible does not require root login privileges, specific SSH keys, or dedicated users and respects the security model of the system under management.
+
+As a result, Ansible has a very low attack surface area and is quite easy to deploy into new environments.
+
+BATTERIES INCLUDED
+Ansible features over 1,300+ modules in the core distribution, providing a great base to build automation upon. Ansible Galaxy also has over 4,000 community-provided roles that can be used immediately, tailored to your particular environment, or even used as templates for something new.
+
+From services and databases to cloud providers, with Ansible you don't have to start from scratch.
 
 
 
