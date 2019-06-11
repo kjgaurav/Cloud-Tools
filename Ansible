@@ -116,7 +116,33 @@ CLOUD READY
 Included modules manage not just the local computer system, but can interact with cloud services including Amazon AWS, Microsoft Azure, and more. And since all cloud APIs allow you to trivially inject SSH keys, you can start managing any cloud instance or network software without modifying the base image.
 
 
+4). Continuous Delivery
 
+Release early & often but keep it simple
+We come from a long history of building software the "release early, release often" way. If release often is an ideal, continuous application delivery may be nirvana.
+
+To do it right, automation is key - but so is simplicity. Your team needs the tools that enable quick turnaround, requiring human intervention only when necessary. That's what Ansible does with one of the easiest paths to continuous delivery in the industry.
+
+Rolling updates. Zero Downtime.
+Ansible provides true multi-tier, multi-step orchestration. Ansible's push-based architecture allows very fine-grained control over operations, able to orchestrate configuration of servers in batches, all while working with load balancers, monitoring systems, and cloud or web services. Slicing thousands of servers into manageable groups and updating them 100 at a time is incredibly simple, and can be done in a half page of automation content.
+
+Call your play
+Ansible let you define "plays", which select a particular group of hosts and assign tasks to execute or roles for them to fulfill. The order in which these plays run, and the hosts on which they run, is tightly controlled by Ansible. For example, you might migrate a database schema and flush the caching servers prior to updating application servers by running one simple play. This is far better than just blasting out orders to servers.
+
+Power plus simplicity, across your environment 
+STAGE & TEST
+Your Ansible inventory can be easily split to slice your environment up into different groups of machines. You can then easily test your plays with a staging machine and if tests pass, that can then be instantly run against production if you so choose.
+
+BEYOND JUST SERVERS
+Ansible can work with networks, load balancers, monitoring systems, web services and other devices that might need touching during a rolling update. For example, you can add or remove servers from your load balancing pool and disable monitoring alerts for each machine that is being updated.
+
+SIMPLE INTEGRATION
+
+Ansible fits into any existing development practice and can be integrated into any workflow by utilizing the Red Hat® Ansible® Tower API and the command-line interface. One common way to use Ansible is by calling it from a continuous integration (CI) system upon a successful application build:
+
+    a). The CI asks Ansible to run a playbook that deploys a staging environment with the application.
+    b). When the stage tests pass, it might then be asked to run a production deployment.
+    c). Ansible can check out your artifacts from version control on each machine, or pull artifacts from the CI server, or from a package mirror.
 
 
 
