@@ -1,0 +1,29 @@
+1. Ansible
+
+Ansible is an open source IT Configuration Management, Deployment & Orchestration tool.
+It aims to provide large productivity gains to a wide variety of automation challenges.
+This tool is very simple to use yet powerful enough to automate complex multi-tier IT application environments.
+
+Key Features:
+
+1. Simple: Ansible uses a simple syntax written in YAML called playbooks. YAML is a human-readable data serialization language.
+2. Agentless: Finally, Ansible is completely agentless. There are no agents/software or additional firewall ports that you need to install on the  client systems or hosts which you want to automate.
+3. Powerful & Flexible: Ansible has powerful features that can enable us to model even the most complex IT workflows.
+4. Configuration Management : Ansible is designed to be very simple, reliable and consistent for configuration management. 
+5. Orchestration: Ansible provides Orchestration in the sense of aligning the business request with the applications, data, and infrastructure.
+6. Security and Compliance: When we define our security policy in Ansible, scanning and remediation of site-wide security policy can be integrated into other automated processes. And it’ll be integral in everything that is deployed. It means that, you need to configure your security details once in your control machine and it will be embedded in all other nodes automatically. 
+7. Application Deployment: When we define our application with Ansible, and manage the deployment with Ansible Tower, teams are able to effectively manage the entire application life cycle from development to production.
+
+USE CASES
+Complete IT automation
+Ansible seamlessly unites workflow orchestration with configuration management, provisioning, and application deployment in one easy-to-use and deploy platform.
+Regardless of where you start with Ansible, you’ll find our simple, powerful and agentless automation platform has the capabilities to solve your most challenging problems.
+
+1. Provisioning : Your apps have to live somewhere. If you’re PXE booting and kickstarting bare-metal servers or VMs, or creating virtual or cloud instances from templates, Ansible and Red Hat® Ansible® Tower help streamline the process.
+2. Configuration Management : Centralizing configuration file management and deployment is a common use case for Ansible, and it’s how many power users are first introduced to the Ansible automation platform.
+3. Application Deployment : When you define your application with Ansible, and manage the deployment with Ansible Tower, teams are able to effectively manage the entire application lifecycle from development to production.
+4. Continuous Delivery : Creating a CI/CD pipeline requires buy-in from numerous teams. You can’t do it without a simple automation platform that everyone in your organization can use. Ansible Playbooks keep your applications properly deployed (and managed) throughout their entire lifecycle.
+5. Security & Compliance :When you define your security policy in Ansible, scanning and remediation of site-wide security policy can be integrated into other automated processes and instead of being an afterthought, it’ll be integral in everything that is deployed.
+6. Orchestration : Configurations alone don’t define your environment. You need to define how multiple configurations interact and ensure the disparate pieces can be managed as a whole. Out of complexity and chaos, Ansible brings order.
+
+
