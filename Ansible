@@ -145,4 +145,30 @@ Ansible fits into any existing development practice and can be integrated into a
     c). Ansible can check out your artifacts from version control on each machine, or pull artifacts from the CI server, or from a package mirror.
 
 
+5). Security & Compliance
+
+Security is job one
+In today’s complex IT environments, security is paramount - security of your systems, security of your data, security of your customer’s data. Not only must you be able to define what it means for your systems to be secure, you need to be able to simply apply that security, constantly monitor your systems to ensure they remain compliant with that security.
+
+Moving to using automation as part of your IT practices is a necessary first step for security. The proper automation tooling allows you to apply the security you need in a simple, consistent, manner, allowing you to concentrate on other things.
+
+Secure your systems, simply
+Ansible allows you to simply define your systems for security. Ansible’s easily understood Playbook syntax allows you to define secure any part of your system, whether it’s setting firewall rules, locking down users and groups, or applying custom security policies. Ansible comes with a library of over 750 included automation modules, allowing you to quickly perform tasks without complicated scripting and Ansible’s easily reusable roles let you write your automation procedures once and use them across your entire infrastructure.
+
+Plus, when the need arrives to perform a one-off task like quickly applying a security patch from a vendor, Ansible’s command support allows you to get things done across your infrastructure with one simple command.
+
+Raising your standards
+Defining what it means for your system to be secure from the ground up can be a painstaking task. You need a good baseline to start from. That’s why Ansible has partnered with the MindPoint Group to write Ansible roles to apply the DISA STIG - a government standard for secure systems that defines common baselines for secure machine profiles.
+
+Automate securely 
+Writing automation content to secure your systems doesn’t help if you don’t have a secure automation framework to begin with. Ansible’s agentless nature means you don’t need a separate security policy for your automation. There’s no ports to open, no additional policy to write - Ansible works with your existing SSH and WinRM infrastructure.
+
+Now, bring Red Hat® Ansible® Tower into the mix. Ansible Tower adds secure storage of all your credentials for machines and cloud systems, and a powerful role-based access control engine that allows you to easily set policies on who can run what automation in what environments, ensuring that only the proper people have the ability to access machines and apply configuration.
+
+Trust, yet verify compliance
+Once you’ve defined your security configuration, you need to be able to verify it and verify it on a consistent basis. Ansible’s idempotent nature means you can repeatedly apply the same configuration, and it will only make the necessary changes to put the system back into compliance. By investigating these runs, you can easily see where changes are needed.
+
+If you want to verify your automation outside of your automation, Ansible’s task-based nature makes it easy to write content using tools such as OpenSCAP and STIGMA to verify your automation. And Ansible Tower’s fact gathering can be directly integrated with common logging and analytics providers to build a wealth of data on your infrastructure, allowing you to simply see any deviations in your systems.
+
+
 
