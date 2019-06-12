@@ -1,0 +1,131 @@
+2. Chef
+
+Chef is an automation tool that provides a way to define infrastructure as code.
+Infrastructure as code (IAC) simply means that managing infrastructure by writing code (Automating infrastructure)
+rather than using manual processes. It can also be termed as programmable infrastructure.
+Chef uses a pure-Ruby, domain-specific language (DSL) for writing system configurations.
+Below are the types of automation done by Chef, irrespective of the size of infrastructure:
+
+    Infrastructure configuration
+    Application deployment 
+    Configurations are managed across your network
+    
+1. Chef uses popular Ruby language to create a domain-specific language.
+2. Chef does not make assumptions on the current status of a node. It uses its mechanisms to get the current status of machine.
+3. Chef is ideal for deploying and managing the cloud server, storage, and software.
+4. Lower barrier for entry − As Chef uses native Ruby language for configuration, a standard configuration language it can be easily picked up by anyone having some development experience.
+5. Excellent integration with cloud − Using the knife utility, it can be easily integrated with any of the cloud technologies.
+It is the best tool for an organization that wishes to distribute its infrastructure on multi-cloud environment.
+
+Common Use Cases
+
+1). Application Delivery
+Ease the burden of managing every application over its lifecycle. Reliably, safely, and repeatedly deliver infrastructure and application changes into production while using the pipeline tools you use today.
+
+Make Application Delivery Frictionless
+Chef Enterprise Automation Stack offers a modern approach for organizations to deliver value quickly, repeatedly, and securely over every application’s lifecycle.
+
+Chef EAS Explained
+Chef Enterprise Automation Stack is an automation system that allows teams to express infrastructure, security policies, and application lifecycle dependencies as code, to deliver that code via an automated pipeline, and to deploy, observe, and manage the technology lifecycle. It helps organizations deliver hardened systems and applications on any platform, on-premises or in the cloud with ease, making updates and changes painless
+
+Benefits of Chef Enterprise Automation Stack:
+
+1. Frictionless application lifecycle:
+By managing everything an application relies on as code, you can eliminate the friction caused by manual steps, custom workarounds, and unknown dependencies that make apps difficult to update, secure, and maintain.
+
+2. A consistent path to production
+Drive efficiency and repeatability in how you deliver applications over their lifecycle. Safely make changes when needed, and get all your apps – from legacy to modern – moving with velocity.
+
+3. Make applications portable
+Free applications from legacy infrastructure and move them to the cloud, Kubernetes, or anywhere else they need to go without having to rewrite them.
+
+4. Align organizational groups
+Collaborate through code. Align operations teams, app developers, and information security by managing everything applications rely on through consistent, trusted, and scalable code.
+
+Define the Stack as Code and Deliver It via a Modern Pipeline
+Chef Enterprise Automation Stack allows you to define infrastructure, security policies, and application dependencies as code, deliver the stack via an automated pipeline to any platform, and deploy, observe, and manage the stack over its lifecycle. Curated content and scanning accelerate codifying the stack, and integration with popular software delivery tools provides a safe and consistent path to production.
+
+
+2). Cloud Migration
+Move your applications to the cloud without a rewrite, while modernizing the way you manage the technology lifecycle. Eliminate the costs of maintaining old or end-of-life infrastructure.
+
+Cloud Migration System
+By providing the ability to launch and scale environments on-demand, cloud platforms have allowed organizations to iterate faster than ever before. Before the benefits of the cloud can be reaped, however, there are some challenges that need to be addressed. To effectively migrate to the cloud, organizations need to understand how to identify and meet their responsibilities in the cloud, how to manage environments across on-premises and cloud platforms, how to modernize their applications to take advantage of cloud resources, and how to maintain visibility into their entire estate as their environments grow. 
+
+While significant, these challenges are not insurmountable! Chef allows you to define configurations and requirements as platform-agnostic code, ensuring you have the ability to quickly and consistently deploy your solutions on-prem or in the cloud without having to re-invent your processes for each.
+
+Applying this practice of Continuous Automation ensures that your organization can move workflows to the cloud quickly, efficiently, and safely, so you can continue to innovate at the velocity your customers demand.
+
+Start by understanding cloud responsibilities
+One advantage of migrating workloads to the cloud is the ability to offload some operational responsibilities to your cloud vendor. Even so, it can be difficult early on to determine to exactly what extent these tasks no longer need to be managed directly. Thankfully, cloud providers illustrate this with the Shared Responsibility Model, which defines where their responsibilities end, and yours begin.
+
+Even in cloud environment, you’ll still be responsible for ensuring that the instances you create are properly patched, and your applications securely configured. By contrast, physical security to the datacenter and management of infrastructure are the sole responsibility of your provider. Cloud vendors provide a variety of tools for managing everything from network architecture to shared storage, where responsibilities will be shared. You no longer need to provision and maintain complex task-specific hardware, but are still responsible for ensuring you configure your cloud provider’s services securely.
+
+InSpec is a compliance and security automation tool that can help you ensure your responsibilities have been met in your datacenter and in the cloud alike. With InSpec you can define your compliance as code, allowing continuous evaluation of your environments, and providing you with up-to-date insight into everything from system patching to software vulnerabilities to formal regulatory compliance. InSpec has built-in cloud resources that allow you to validate your cloud services with the same rigor as your bare metal systems.
+
+
+Managing hybrid environments
+At a high level, configuring a virtual instance in the cloud is not significantly different from configuring a bare metal or virtual server in a datacenter. Why then do we often maintain completely separate deployment scripts and procedures between our environments? The short answer is that manual processes and traditional scripting languages aren’t flexible enough to easily adapt to different platforms, and as organizations migrate to the cloud, this problem can effectively double their operational overhead with duplicated efforts.
+
+Chef is a configuration management tool that allows you to define your infrastructure as code. Chef code is platform agnostic by design, and can be easily extended to support multiple environments on a single codebase. When Chef runs on your systems, it collects profiling information that can be used to inform its execution. This includes everything from resource availability (e.g. how much memory does my server have?) to cloud-specific data (e.g. Is this instance deployed to Amazon EC2?). Having this data as its disposal allows Chef to take conditional action based on what it discovers. This allows you to apply a consistent configuration across environments and cloud providers, and dynamically address any differences between them.
+
+Augment your migration with Chef Automate
+The key factor that drives organizations to adopt cloud platforms is the ability to scale their environments on-demand. As your estate grows, it becomes vitally important that you can maintain visibility into how those environments are evolving over time. Chef Automate provides not only a unified window into every system you manage with Chef, but provides filterable real-time and historical data for configuration changes and compliance scans, ensuring you always know exactly what’s happening in your environments.
+
+Chef, InSpec, and Habitat give you everything you need to automate your infrastructure, compliance, and applications.
+
+Chef Automate augments their capabilities by providing In-Depth Visualizations into:
+a). Event Feed
+    Know every change that’s been made to your chef environment, and how many systems were impacted.
+
+b). Client Runs
+    Full, filterable history of every configuration change made by chef, on every system you manage.
+
+c). Scan Jobs
+    Agentless scans of servers and cloud APIs, providing you the ability to evaluate security and compliance anywhere.
+ 
+d). Compliance
+    Weighted Compliance reports and aggregated status views ensure you enter audits with confidence.
+    A built-in library of security profiles, including the Center for Internet Security’s (CIS) benchmarks and Department of Defence’s Security Technical Implementation Guides (DISA STIGs), and an asset store for your homegrown profiles.
+
+
+
+3). Patch Management
+
+Conceptually, applying patches should be simple. Identify the systems that are vulnerable and patch them! In practice, however, things are rarely that straightforward. Your fleet might conceivably have thousands of vulnerabilities needing to be patched, but not all of them are high priority or even relevant. You might not know whether patching systems will break critical business applications. On top of this, you only have a small team of system administrators responsible for tens of thousands of systems. You started with a patching problem, and what you actually have is a risk management problem. And risks are not absolute. Fortunately, the Chef Automate platform can help you identify unpatched systems, prioritize them by severity, remediate them by integrating Chef Infra with best-of-breed patch databases like WSUS, and help your team visualize graphically your progress towards improving patch compliance.
+
+
+Managing the risks of patching
+To start patching your software effectively, it’s important to understand exactly what risks are involved, and have a plan to ensure that patches are applied safely and efficiently across your estate. The risks involved with software patching can be broadly grouped into three distinct categories:
+
+    The Risk of Unpatched Systems: Where is software is out of date, and what patches are available for update?
+    The Risk of Applying Patches: Will updating software negatively impact my applications?
+    The Risk of Incomplete Visibility: Have my patches been applied to every system that requires them?
+
+With Infra you have the tools to ensure you can evaluate all three of these risks, and start applying patches with confidence across your estate. First, there’s the risk of not patching. This is what drives us to implement patching workflows, so that our environments are protected from vulnerabilities and outdated software. However, it’s balanced by the opposing risk of applying patches. Whether you’re updating system libraries on a production webserver, or installing new printer drivers on your home computer, each update can come with unexpected consequences. Software updates must be evaluated, lest they impact the operation of your applications, and that takes care and planning. Finally, there remains the risk of incomplete visibility into your estate. Particularly as environments grow, organizations have more and more systems that need to be patched, and the only thing worse than not being able to apply a patch is not being able to validate whether the patch was successfully consumed by your entire fleet. While daunting, these challenges are not insurmountable! With Infra you have the ability to determine where patches are required, safely apply updates in pre-production environments before promoting, and maintain visibility in the status of every server, VM, and service you’re responsible for at any time.
+
+
+Chef InSpec: identify unpatched systems across your estate
+InSpec is a language that defines compliance as code, transforming your compliance, security, and other policy requirements into automated tests. This can include validation of regulatory compliance frameworks, functional testing of your environments, and of course, identifying systems in need of patching. InSpec gives you immediate insight into the risk of unpatched systems in any environment, at any time.
+
+With InSpec, you can:
+
+a). Identify Unpatched Systems. Built-in InSpec profiles defining patching baselines for Linux and Windows can be used to scan your environments and learn which software packages are out of date with the push of a button.
+
+b). Practice Continuous Compliance. InSpec can scan systems ad-hoc for real-time feedback, or continuously so that you always know when new patches are available, or if configuration changes have impacted your overall compliance.
+
+c). Scan Any System, in Any Environment. Environments managed by Infra can use the audit cookbook to ensure InSpec scans run whenever Infra does. InSpec can also scan systems agentlessly over SSH or WinRM, ensuring you can evaluate any system at any time.
+
+4). Modernizing Legacy Applications
+Revitalize legacy applications by repackaging them, applying continuous delivery practices, and deploying them to cloud-native environments.
+
+Modernize applications for agility and speed.
+Enterprises are aggressively adopting modern cloud and container platforms. But rewriting thousands of applications for modern microservice architectures — or replacing them outright – is cost and time prohibitive. And directly lifting-and-shifting legacy applications into new environments merely pushes dealing with the problem down the road. Chef Automate and Chef Habitat allow organizations to modernize and repackage applications to create agility and portability.
+
+Universal app packaging with Chef Habitat
+The pain in legacy applications has to do with their management: escalating costs and time spent managing old versions of application frameworks, operating systems, management and monitoring tooling, and everything else needed to keep that business value alive.
+
+Habitat’s technology allows legacy applications to be repackaged in a way that eliminates or reduces the dependencies on old operating systems and middleware. By doing so, Habitat extracts the core application – where the business value lives – and makes it portable to newer environments, including the cloud and containers. This portable, infrastructure-independent application format future-proofs your legacy application investment, allowing you to take advantage of whatever infrastructure innovations come next.
+
+Furthermore, applications packaged with Habitat provide a uniform management interface and can be continuously delivered in the same way as the most modern microservice-based Habitat applications. Not only does this allow both legacy and modern applications to be managed in the same way, but it truly allows all of IT to move fast.
+
