@@ -1,0 +1,93 @@
+3. Puppet
+
+Puppet is a Configuration Management tool that is used for deploying, configuring and managing servers.
+It performs the following functions:
+
+    Defining distinct configurations for each and every host, and continuously checking and confirming whether the required configuration is in place and is not altered (if altered Puppet will revert back to the required configuration) on the host.
+    Dynamic scaling-up and scaling-down of machines.
+    Providing control over all your configured machines, so a centralized (master-server or repo-based) change gets propagated to all, automatically.
+
+1. Infrastructure automation :Define and continually enforce IT configurations no matter where your infrastructure lives.
+2. Automated provisioning : Automate provisioning across your heterogeneous IT infrastructure.
+3. Application release automation : Get full control over and visibility over your software delivery process.
+4. Task management :Make changes or remediate urgent problems alongside your model-driven automation management.
+5. Visualization & reporting : Gain insight into your infrastructure, audit changes, and get rich reporting in a full-featured graphical console.
+6. Orchestration : Orchestrate change with control, visibility, and automated intelligence. 
+7. Code management : Manage infrastructure as code using your favorite version control systems to better enable continuous delivery.
+8. Node management :Define your infrastructure as code and save yourself the manual work of classifying and managing nodes.
+9. Discovery & insights : Quickly discover resources that need automated management, and drive change with confidence.
+10. Role-based access control : Assign permissions to teams in line with company and regulatory policies.
+11. Support, services & training : Get access to world-class education, training and support to get up and running faster.
+
+Use Cases
+1). DevOps approach with Puppet
+Puppet Enterprise manages infrastructure as code, providing the foundation for DevOps practices such as versioning, automated testing, continuous integration and continuous delivery. You deploy changes with confidence and recover more quickly from failures, freeing your team to be more agile and responsive to business needs.
+
+Bring continuous delivery to infrastructure code, increasing reliability as you decrease cycle times so you can release changes faster. Gain the  confidence that your continuous integration and continuous delivery pipeline is consistent and your infrastructure is stable, while also allowing you the ability to roll back at a moments notice.
+
+DevOps makes your business more agile, eliminating silos and improving collaboration across teams, from development to operations to QA to security. Puppet can help automate the entire application development lifecycle, from core infrastructure through application maintenance. 
+
+2) Continuous Delivery for Puppet Enterprise
+
+Continuous Delivery for Puppet Enterprise gives Ops teams the same workflows their Dev teams use to build, test, and promote their infrastructure code. It simplifies continuous delivery for infrastructure managed with Puppet Enterprise, from the time you commit Puppet code to the deployment of that code across your environments. Get full control and visibility over how your infrastructure code is tested and promoted so you can deliver changes faster and with more confidence.
+
+Apply continuous integration practices to your infrastructure code. Connect your preferred source control repository in one click, and quickly create and run jobs to build and test Puppet code before you deploy it to your environments. Use visual dashboards to create full continuous delivery pipelines for your Puppet code.
+
+Impact Analysis lets you easily view the effect and risk of any proposed Puppet code changes before they happen, so you can quickly approve and deploy lower-risk while enabling more scrutiny for higher-risk changes. Get reports that empower teams with the autonomy and confidence to make infrastructure code changes faster while promoting broader accessibility and cross-team collaboration.
+
+Get visibility into the status of code builds to your control repos and audit trails for who changed what as infrastructure code is tested and promoted across environments.
+
+Get a complete picture of your entire software delivery process and track every change through a single view that visualizes the status of your infrastructure changes as they move from keyboard to production.
+
+Enable your organization with the structure and governance needed for cross-team collaboration. Fine-grained access control and detailed audit trails ensure up-to-date information on who deployed which changes and when. Set permissions to ensure that only authorized members of your team can push code changes.
+
+3). Cloud management
+
+Today's enterprise is a hub of heterogeneous technologies that can be complex and expensive to manage, especially when you consider adopting cloud. With Puppet Enterprise, you can streamline the management of compute, storage and network resources and efficiently scale workloads across heterogeneous environments, as well as various flavors of public, private and hybrid cloud. Puppet Enterprise is integrated with the leading cloud service providers: Amazon, Microsoft, VMware and Google. 
+
+Easily adopt cloud, building new applications for greenfield projects. Rapidly move from physical infrastructure to deploying production workloads in the cloud. Quickly scale up or down to handle fluctuations in demand. Puppet Enterprise gives you the flexibility to manage dynamic infrastructure, since it's integrated with the leading cloud service providers: Amazon, Microsoft, VMware and Google. 
+
+4). Configuration management
+
+Configuration automation is the reassurance that your infrastructure environment deploys automatically and reliably every time. Unlike error-prone procedural scripts, which can create bottlenecks that make deploying or rolling back to a stable version a harrowing endeavor, Puppet Enterprise lets you simply define the desired state of your infrastructure and applications. Puppet continuously and automatically enforces that state, so you can spend more time innovating and less time fighting fires.
+
+Puppet Enterprise makes it possible to define your infrastructure as code, a foundation for successful DevOps practices. When infrastructure is managed as code, multiple teams can collaborate, and you bring proven agile software development practices to IT: versioning, peer review, automated testing and continuous delivery. 
+
+5). Infrastructure as cod
+
+Describing your infrastructure as code with Puppet Enterprise lets you deliver software much more reliably, too. That's because configurations are consistently tested, shared and promoted across all your environments, from dev laptops through test to production.
+
+Puppet Enterprise lets you define the desired state of your infrastructure and what you want it to do. Puppet then automatically enforces that desired state and remediates any unexpected changes. You can deploy faster, with greater reliability, because you no longer have to map out and manually deploy every step\
+
+Puppet Enterprise gives you a clear audit trail with detailed reports on the state of your infrastructure. Now you (and your management team) can easily see who changed what, and when, plus how out-of-policy changes are automatically remediated back to the desired state. 
+
+
+6). Automated testing
+
+Puppet Enterprise lets you test changes before you deploy them to production. This is possible because you define your infrastructure as code, which allows you to adopt agile development best practices, such as automated testing and deployment. Just like developers have test-driven development, your team can have test-driven infrastructure. Automation gives you the confidence of knowing your deployments will go as expected every time.
+
+Manually repeating tests and redeployment is costly and time-consuming. With Puppet Enterprise, you create automated tests once, then run them over and over again, reducing your testing time from days to hours. 
+
+You need to know whether something has gone wrong before you deploy into production. Puppet Enterprise lets you run tests on infrastructure code, executing tests as soon as a change is made, so you can proactively remediate any issues. 
+
+Continuous delivery relies on automated testing because it gives you fast feedback, letting you pinpoint problems quickly and ship reliably. Puppet Enterprise provides Beaker, an acceptance testing framework for infrastructure deployment that integrates easily with tools you’re already using. 
+
+7). IT automation
+
+When it comes to getting started with automation, knowing what you have is half the battle. IT teams struggle to maintain an accurate inventory of their infrastructure, and because they don’t know what they have, they are challenged with bringing it all under control. Puppet Discovery™ gives IT teams a simple solution for discovering their hybrid infrastructure, gaining meaningful insight into it, and taking action to bring it under management.
+
+Manual configurations and one-off scripts don't scale when you manage a large and growing infrastructure. Puppet Enterprise lets you define configurations once and immediately apply them to thousands of machines instead of making manual changes to systems, or running the same scripts over and over. 
+
+Too many IT teams lack visibility into the state of infrastructure and the true causes of downtime. Puppet Enterprise makes it easy to understand the impact of changes to systems and applications, and gain real-time insight into the state of your infrastructure so you can quickly address issues. Plus you can pinpoint who changed what, and when changes occurred. 
+
+8). Networking automation
+
+Puppet Enterprise keeps your network in the state you've prescribed to align with your organization's policies. It gives you reports on the state of your network, audit changes that have occurred, and automatically remediates any unintended changes
+
+With Puppet, you can manage devices from various vendors, including Cisco, Arista, Huawei, Cumulus and Palo Alto Networks. Puppet's agentless approach to networking automation leverages the benefits of the Puppet ecosystem, including the ability to retrieve device facts and apply resources.
+
+Now your technical teams can all use the same interface to configure and manage compute, networking and storage resources, improving communication and making collaboration easier.
+
+Puppet Enterprise provides a unified approach to managing both your compute and network infrastructure. Puppet's declarative approach lets you define all your infrastructure as code with a single interface — not just your compute resources. Technical teams can collaborate more effectively and accelerate application delivery. 
+
+Focus on what makes each platform special, instead of vendor-specific names. NetDev is a Puppet-maintained standard that brings naming consistency to networking for common configuration types. Integrations built on NetDev include Huawei and Arista.
