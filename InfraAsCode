@@ -63,3 +63,29 @@ Terraform is a tool for building, changing and versioning infrastructure safely 
 10. Client-only architecture: Terraform leverages the cloud provider’s API for provisioning the infrastructure which eliminates the need for additional checks and also running the configuration management system in a separate server. 
 11. Super Portability: You have only one tool and one language for describing the infrastructure for multiple cloud providers. Migrating to vendors is not a problem anymore. 
 
+
+Infrastructure as Code: Chef, Ansible, Puppet, or Terraform?
+
+Configuration management
+
+Generally, Ansible, Puppet and Chef are considered to be configuration management (CM) tools and were created to install and manage software on existing server instances (e.g., installation of packages, starting of services, installing scripts or config files on the instance). They do the heavy lifting of making one or many instances perform their roles without the user needing to specify the exact commands. No more manual configuration or ad-hoc scripts are needed.
+
+Configuration orchestration
+
+Tools like Terraform are considered to be orchestrators. They are designed to provision the server instances themselves, leaving the job of configuring those servers to other tools. Orchestration addresses the requirement to provision environments at a higher level than configuration management. The focus here is on coordinating configuration across complex environments and clusters.
+
+Chef and Ansible use a procedural style language where you write code that specifies, step-by-step, how to achieve the desired end state.
+The onus is on the user to determine the optimal deployment process. Terraform, and Puppet use a declarative style where you write code that specifies the desired end state. The IaC tool itself then determines how to achieve that state in the most efficient way possible. Procedural languages are more familiar to system admins who have backgrounds in scripting. Declarative tools are more familiar to users with a programming background.
+
+
+Mutable or immutable? Traditional server environments are mutable, in that they are changed after they are installed. Administrators are always making tweaks or adding code. CM tools evolved to manage this complexity and bring order to the configuration and updating of tens to thousands of servers. An immutable infrastructure is one in which servers are never modified after they’re deployed. If something needs to be updated or changed, new servers are built afresh from a common template with the desired changes. This is the world of Terraform, where new servers replace the existing servers. This is also the philosophy of containers. With orchestration, immutability is easily applied to servers as they usually have built-in support for managing the lifecycle of a resource from creation to tearing down.
+
+Cloud environments continue to grow in complexity, the need for orchestration increases.
+The growing requirement is for coordination of components and the management of the dependencies between the config of one service
+and another. Immutability avoids certain issues like configuration drift and problematic snowflake servers.
+Think “cattle” and not “pets.” However, to reap the benefits requires deployment automation, rapid server provisioning,
+and the handling of stateful data and ephemeral logs. This means one tool focused on infrastructure orchestration and 
+another on applications. This brings together the benefits of a focused orchestration tool such as Terraform along with a wide choice 
+of configuration management tools. This is one of the beauties of Terraform—it can easily work with your config management tool 
+of choice to provide customized application delivery while maintaining the benefits of immutability.
+
