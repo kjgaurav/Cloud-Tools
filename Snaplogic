@@ -1,0 +1,76 @@
+. SnapLogic
+
+SnapLogic is a software company that offers cloud integration products to allow customers to connect cloud-based data and applications with on-premise and cloud-based business systems. The products are designed to allow even business users with limited technology skills to access and integrate data from different sources.
+
+Key Features:
+
+1. Customer Experience/CRM : Pre-built connectivity with Salesforce, Oracle, Zendesk, ServiceNow, and others helps you accelerate your department and company initiatives. Obtain 360-degree understanding across all teams.
+2. Cloud Data Warehousing : Our high volume, intuitive platform enables rapid on-premises and cloud database and app integration from and to Oracle, SQL Server, Redshift, Azure databases, Snowflake, and more.
+3. Finance & Accounting : SnapLogic Integrates SAP, Oracle, NetSuite, Microsoft Dynamics, and other ERPs with apps and data across the enterprise to automate order-to-cash, procure-to-pay, and financial close and reporting processes.
+4. Human Capital Management : Speeds tasks and cuts cost from your HR migrations and helps centralize and consolidate data for people analytics. Integrate Workday, Oracle Peoplesoft, Taleo, and multiple other HR applications.
+5. Mergers & Acquisitions : SnapLogic provides consolidated data and processes across disparate multi-subsidiary sales, customer, and finance applications. Reduce the number of fragmented platforms and IT resources.
+6. Internet of Things (IoT) : The SnapLogic integration platform supports a variety of IoT standard protocols and data sources including streaming and data for real-time decision making – critical to your IoT initiative’s success.
+7. Data Analytics : The complexity of integrating data into the enterprise can be challenging. Integrate data well and reduce risk, optimize operations, and support insight-driven decision making
+8. Big Data : SnapLogic’s platform-agnostic approach supports a distributed, web-oriented architecture for large datasets on-premises, in the cloud, or both – giving maximum visibility to Spark, Hadoop, ETL, etc.
+
+
+Use Cases:
+1). API Management
+SnapLogic API Management (APIM) provides a seamless, end-to-end solution for achieving lifecycle API management.
+It enables you to build a rich digital ecosystem and accelerate connectivity across channels and partners. 
+What’s more, SnapLogic APIM spurs innovation and growth in the form of new API-led products and services.
+With lifecycle API management, you can manage, scale, and control API consumption quickly, seamlessly, and securely.
+The following features make this possible: API traffic control and productization, developer portal, advanced API analytics,
+and threat detection.
+
+
+Create APIs without a single line of code
+The Intelligent Integration Platform (IIP), SnapLogic’s core integration platform, makes it easy to create APIs by converting 
+complex integration pipelines into REST APIs. These APIs can shape, combine, and transform data as well as connect a variety of 
+endpoints – databases, ERP systems, legacy web services, cloud applications, data warehouses, data lakes, IoT, etc. – with 
+virtually no coding. They can even enrich third-party data. By not having to update API calls with manual code, 
+you can achieve a remarkably fast time-to-value.
+
+
+OpenAPI for any API management platform
+SnapLogic adapts to your API needs and integrates with any API management platform you might want to use. 
+It does this by using OpenAPI specifications created from SnapLogic projects. You can use these specifications to 
+easily generate a single downloadable “Swagger” file, in JSON or YAML format, in the SnapLogic IIP. 
+The REST APIs from all related tasks for the project are imported via this file into any API management platform of your choosing. 
+This includes Apigee, Microsoft Azure, 3Scale, CA Technologies’ Layer 7, Amazon Web Services (AWS), Kong, Axway, and more.
+
+Connect and consume APIs in real-time
+Speed up your integration initiatives by leveraging a growing library of 500+ pre-built connectors. 
+These pre-built connectors, known as Snaps, integrate with popular applications, databases, analytics solutions,
+data warehouses, and other systems. They enable you to execute multi-point integrations and connect your on-premises
+applications to your cloud applications without having to write a single line of code. 
+In other words, with Snaps, you don’t have to build APIs from scratch. This enables you to build a revenue-driving 
+digital ecosystem faster
+
+
+A comprehensive and flexible integration platform
+SnapLogic offers pre-built pipeline patterns and the Iris AI-powered Integration Assistant to further speed up the 
+process of building a digital ecosystem. The Integration Assistant, a machine learning-powered recommendation engine, 
+offers contextual Snap suggestions when building integrations, thus saving you time. 
+With pre-built pipeline patterns, you can build reusable API integrations at drag-and-drop speed. 
+SnapLogic enables you to rapidly create APIs, make seamless connections, and easily manage the API lifecycle.
+
+
+2). SnapLogic for B2B Integration
+
+SnapLogic modernizes your B2B integrations so you no longer have to endure the pain of antiquated, disjointed systems. 
+The SnapLogic Intelligent Integration Platform (IIP) integrates with a cloud-based B2B gateway solution to offer
+effective partner management, out-of-the-box EDI(Electronic Data Interchange) document support, and EDI translation. 
+These pre-built integrations with a B2B gateway enable you to both create EDI documents that get pushed to trading partners 
+and ingest EDI documents sent by trading partners.
+
+3). Big Data Integration
+
+Enable a completely managed data architecture in the cloud including integrations (iPaaS), processing (BDaaS) and data storage (SaaS).
+Realize the benefits of no CapEx, lower your OpEx, and reduce the need for hard-to-find skills to manage big data clusters. 
+SnapLogic eXtreme is built to process very high volumes (peta/exabyte) with high complexity. 
+It also has built-in support for ephemeral, managed big data clusters.
+
+
+
+
