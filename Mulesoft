@@ -1,0 +1,96 @@
+1. Mulesoft
+
+MuleSoft is a vendor that provides an integration platform to help businesses connect data, applications and devices across on-premises and cloud computing environments.
+
+The company's platform, called Anypoint Platform, includes various tools to develop, manage and test application programming interfaces (APIs), which support these connections.
+
+1. Collaborate : Accelerate development speed by reusing prebuilt APIs, connectors, templates, examples, and other integration assets. Collaborate more effectively with teams by rating and commenting on any asset to improve quality, and build a customized, branded API portal to increase API engagement and adoption
+2. Connect : Build APIs and integrations faster using reusable assets with clicks or code — whether it is through a web interface or a desktop IDE. Transform data automatically using machine learning-based recommendations, test your APIs and integrations, and plug into your CI/CD pipeline with built-in support for Maven and Jenkins.
+3. Secure : Get out-of-the-box compliance for ISO 27001, SOC 2, PCI DSS, and GDPR, and secure your enterprise automatically with prebuilt and custom policies. Protect sensitive data through format-preserving tokenization using policies, and establish secure perimeters around data, APIs, microservices, and integrations. 
+4. Run : Use Mule, a lightweight, scalable runtime engine for APIs, integrations, and microservices. Deploy anywhere — on-premises, to the cloud, or both. Ensure 99.99% uptime with CloudHub, which handles over 60 billion transactions per month. Reap the benefits of Kubernetes and Docker to deploy to AWS, Azure, or on-premises using Anypoint Runtime Fabric.
+5. Manage : Understand the health of your application network with a real-time, graphical view of your APIs and integrations. Customize dashboards, API functional tests, and alerts to monitor business-critical initiatives. Decrease mean time to resolution with application performance management, logging, and business operations metrics in one view. 
+
+USE Cases:
+
+1). API lifecycle management
+An API strategy and the right API platform are critical to thriving in today's digital economy.
+Build your strategy and manage the full API lifecycle — all with MuleSoft.
+
+Unified platform for APIs
+Design, build, test, secure, manage, and retire APIs using one platform 
+
+Enterprise-tested API strategy
+Get a blueprint to building an effective API program
+
+2).  Solutions for B2B EDI (Electronic data interchange)
+Accelerate trading partner onboarding, improve supply chain efficiency, adopt modern technologies, and support legacy B2B EDI transactions — all with Anypoint Partner Manager.
+
+Accelerate partner onboarding
+Decrease time to market by reusing APIs and partner onboarding templates
+
+Simplify partner management
+Get end-to-end visibility across all B2B transactions and backend integrations with a single platform
+
+Create a future-proof architecture
+Build flexible B2B integrations using a unified platform that enables on-premises, cloud, and hybrid deployments
+
+3). Solutions for data integration
+Querying, normalizing, and transforming data is at the heart of improving insights and gaining actionable intelligence.
+Anypoint Platform™ brings a unified solution that combines batch and real-time processing for application and data integration.
+
+Increase developer productivity
+The power of DataWeave and Anypoint Templates combine to drive unparalleled productivity and faster time to market
+
+Unify application and data integration
+Anypoint Platform doesn’t differentiate between application and data integration; data can flow seamlessly across systems
+
+Ensure high performance
+Built on the Mule runtime engine, DataWeave delivers up to 5x performance against comparable approaches
+
+
+4).  Solutions for DevOps
+Anypoint Platform™ makes adopting DevOps best practices — such as CI/CD — easy with capabilities for the full API lifecycle.
+
+5). ESB solutions
+Use Anypoint Studio, the graphical design environment for Anypoint Platform™, with Mule runtime engine embedded to implement an ESB architecture that leverages your existing systems and exposes them to new applications.
+
+Unified connectivity
+Build integrations for use cases ranging from extending legacy services with APIs to re-platforming SOA for connectivity across your enterprise
+
+Speed of delivery
+Deliver integration projects 3x faster with prebuilt connectors and templates, management and monitoring, and a scalable ESB architecture
+
+Future-proof
+Quickly design enterprise-grade integrations and run your ESB anywhere — on-premises, in the cloud, or in hybrid environments at the push of a button
+
+
+6). Solutions for IoT
+Connect apps, systems, and data to the internet of things using APIs. 
+
+Seamless connectivity for IoT
+Connect and orchestrate data on IoT devices or with back-end applications using APIs
+
+Speed of delivery
+Use open standards, developer-friendly tools, and prebuilt transport protocols, such as Zigbee and MQTT, to integrate IoT devices quickly
+
+Future-proof your IoT integrations
+Create a flexible IoT architecture and deploy anywhere — on-premises, in the cloud, or in a hybrid environment
+
+7).  Solutions for microservices
+Organizations adopt microservices architectures to continuously innovate and foster agility.
+With Anypoint Platform™, you can implement microservices in a way that allows you to build new solutions in a manageable, reusable, and governed manner.
+
+8).  Solutions for SOA
+Traditional SOA suites are costly and take years to implement, mainly because custom code creates a rigid architecture that hinders IT productivity.
+To be competitive, companies need an API-led SOA solution that increases development speed and creates a future-proof architecture.
+
+Deliver end-to-end connectivity
+Build SOA quickly by reducing development complexity and eliminating long release cycles
+
+Decrease time to market
+Accelerate application development with APIs and reuse — improving the effectiveness and agility of your developers
+
+Create a flexible architecture
+Future-proof your architecture with best practices that prevent you from getting locked-in to vendor-dictated too
+
+
