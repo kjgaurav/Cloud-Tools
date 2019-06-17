@@ -1,0 +1,73 @@
+2. Dell Boomi
+
+Dell Boomi AtomSphere is an on-demand multi-tenant cloud integration platform for connecting cloud and on-premises applications and data.
+The platform enables customers to design cloud-based integration processes called Atoms and transfer data between cloud and on-premises applications. Each Atom defines what is necessary for the integration.
+
+
+1. Integrate any application and data across your hybrid IT landscape with speed and ease : Overcome IT complexity and break down data silos by integrating on-premise and cloud application, various data sources and devices with Boomi Integration. Create a fabric of connectivity to unlock productivity and thrive in the digital era.
+2. Synchronize and enrich trusted data across your enterprise : Boomi Master Data Hub is a cloud-native master data management solution that sits at the center of the various data silos within your business, including your existing MDM solution, to provide you an easy to implement, scalable, flexible, and secure master data management hub as a service.
+3. Simplify how you manage your B2B trading partner network : Effectively integrate with your B2B partner network – vendors, suppliers, distributors – using both traditional EDI and newer web service protocols with Boomi B2B Management.
+4. Design, secure and scale APIs to connect across the enterprise using the full lifecycle Boomi API management : Boomi API Management supports the full lifecycle of APIs in a hybrid environment. Configure APIs and expose real-time integrations effortlessly. Centrally test and deploy APIs and enforce contracts and policies with an API gateway. Monitor the health of APIs with usage dashboards and engage API developers using the catalog and developer portal.
+5. Workflow automation and app development enable you to build customer journeys with low-code development : Boomi Flow is a modern, cloud-native, low-code application development platform for creating customer journeys and automating simple and sophisticated workflows that accelerate your business outcomes.
+Through the Boomi unified platform’s extensive connectivity, customers can extend application and data integration capabilities to any business applications including online/offline mobile apps and web portals.
+6. Continuous innovation : Boomi has been pioneering cloud-native integration. Auto-healing, auto-updating and smart, our platform is built on the industry’s most advanced distributed architecture.
+7. Productivity and control : Boomi provides revolutionary development speed with its low-code environment, powered by crowd-sourced intelligence, pre-built templates, and developer SDKs Boomi.
+8. Trust and compliance : With the industry’s best uptime, Boomi handles all your toughest technical challenges — including upgrades, security and compliance — regardless of whether you’re deployed on-premise, in the cloud, or across a hybrid IT landscape.
+9. Insights and intelligence : With your applications and data together in a unified platform, you gain a 360-degree view of your business to identify patterns and unlock the power of artificial intelligence and machine learning.
+
+Use Cases:
+
+1). Dell Boomi API management
+Transform your legacy systems into powerful REST API’s
+Dell Boomi API management offers you lot of possibilities:
+
+    API Gateway: Leverage a centralized, consistent method for authentication and accessibility of your enterprise services.
+    Application Modernization: Unlock legacy systems data for easy consumption by new applications.
+    Data Sharing: Extend the reach of enterprise information and services to external business constituents, such vendors, partners and customers.
+    Mobile Enablement: Support mobile services through integration of disparate back-end data sources.
+    Internet of Things: Provide a secure and scalable way to deliver real-time information from connected devices.
+
+2). Dell Boomi platform
+1 central management console
+Build-in monitoring and alerting: consoles, email and RSS
+Support for document tracking (bread crumbs) help you to find specific messages quickly
+Single button deployment and support for re-depoyment of old versions
+Unlimited number of environments
+Role based security for Boomi user accounts
+
+3). Dell Boomi Integration is an enterprise class integration platform as a service
+Build
+
+    Dell Boomi Integration has an easy to use interface
+    Drag-and-drop building blocks and data mapping tools
+    Library with both application and technology connectors
+    Zero code
+
+Deploy
+
+    Deploy integratie processes with a single click on a button
+    Add comments to your deployments
+    Automatic version control
+    Copy deployment from environment A to B
+    Re-deploy an old version
+    Compare different versions of integration processes
+
+Manage
+
+
+    Central management integration processes, web services and API’s
+    Monitor the status of Boomi Atom and Molecule run-time engines
+    Built-in alerting mechanism
+
+4). Dell Boomi MDM is the master data management solution of the Dell Boomi platform
+
+    Build your own data model per entity
+    Connect multiple entities (1:N relations)
+    Determine on field level which source system is the leading system
+    Create and update golden records using flexible matching rules
+    Synchronize data with Dell Boomi Atomsphere or with another integration platform
+    Analyse quarantined records
+    Update, merge or delete quarantined records
+    Optional: Approve golden record updates
+
+
