@@ -1,0 +1,48 @@
+Beyond Docker: Other types of containers
+
+Defining containers   
+In essence, a container is a lightweight, virtualised, portable, software-defined environment in which software can run in isolation
+of other software running on the physical host machine. The software that runs inside a container is usually designed as a single 
+purpose application.
+
+1). Java containers: Jetty, Tomcat, Wildfy and Springboot are all examples of container technologies that enable 
+standalone Java applications. They have been used for years to incorporate parts of the Java runtime into the app itself.
+The result is a Java app that can run without requiring an external Java environment, making the app containerised. 
+While Java containers are indeed container technologies they are not a variant of the Linux containers that are associated 
+with the Docker hype. 
+
+2). Unikernels: Applications that you commonly find running in a Docker container may require only a fraction of the advanced
+capabilities offered by the virtualised environment they run in. Unikernels as designed to optimise the resources required by a 
+container at runtime: by mapping runtime dependencies of the application and only packaging the system functionality that is needed
+at runtime into a single image. Unlike Docker containers, Unikernels can boot and run entirely on their own, without a host OS or 
+external libraries. That’s different from Docker containers, which rely on external resources and a host environment to run.
+Unikernels can reduce complexity, improve portability and reduce the attack surface of applications however they require new
+development and deployment tooling which is still emerging.
+
+3). LXD: a container platform from the company behind Ubuntu Linux. LXD containers are built and operated with the same tools
+as traditional VMs but can achieve similar runtime performance to containers and better improved utilization over VMs.
+That’s different to Docker containers which give order of magnitude better density but require a container orchestration platform
+like Swarm or Kubernetes to manage them at scale.
+
+4). OpenVZ: A container platform for running complete operating systems. OpenVZ is different to a traditional virtual machine 
+hypervisor because it requires both the host and guest OS to be running Linux but because it shares the host OS kernel 
+(like Linux containers) OpenVZ containers are much faster and more efficient than traditional hypervisors.
+OpenVZ also happens to be one of the oldest container platforms still in use today, with roots going back to 2005. 
+
+5). Rkt: Rocket containers emerged from CoreOS to address security vulnerabilities in early versions of Docker.
+In 2014 CoreOS published the App Container specification (appc) in an effort to drive innovation in the container space 
+which spawned a number of open source projects. The early vulnerabilities in Docker have long been addressed and
+Docker containers are compatible with Docker so can run side by side. 
+
+6). Windows Server Containers: The recent launch of Windows Server 2016 has brought the benefits of Linux containers 
+to Microsoft workloads. Microsoft has re-engineered the core windows OS to enable container technology and worked closely
+with Docker to ensure parity in the Docker management tooling. There is still some work to do on optimising the size of the
+container images and they will only run on Windows 10, Server 2016 or Azure.
+
+7). Hyper-V Containers: Greater security can be achieved by hosting Windows Server Containers in a lightweight 
+“Hyper-V” virtual machines. This brings a higher degree of resource isolation but at the cost of efficiency and density on the host.
+Hyper-V containers would be used when the trust boundaries on the host OS require additional security. 
+Hyper-V containers are built and managed in exactly the same way as Windows Servers Containers and therefore Docker containers.
+
+
+
