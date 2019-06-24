@@ -1,1 +1,75 @@
 https://cloud.google.com/velostrata/
+
+Velostrata is a purpose-built, enterprise-grade cloud migration solution that lets you mass migrate enterprise workloads 
+to Google Cloud Platform (GCP) from on- prem or other clouds quickly while controlling and automating where storage resides.
+
+Key Features:
+
+1). Automatic and seamless adaptations
+Automatic and seamless adaptations for cloud, including driver/agent installations, networking, licensing, and more. 
+No manual changes to the applications, images, networks, storage, or drivers are required when migrating most operating systems 
+and versions.
+
+2). Provisioning and rightsizing
+Provision cloud instances directly from Velostrata, including support for customizations to networking, encrypted disks, and more,
+as well as analytics-based rightsizing recommendations for both cost and performance.
+
+3).On-premises stateful rollback
+Stateful rollback so no trip to the cloud is one-way if applications don’t operate as planned.
+
+4). Customizable
+Customization hooks allow IT managers to perform specific customizations (e.g., enable or disable services) upon
+migration to cloud or roll back to on-premises.
+
+5). Pre-migration validation and testing
+Pre-migration validation via Velostrata’s test-clone capability, which allows testing of production workloads and data directly 
+in the cloud, within an isolated environment that has zero impact on production or live systems.
+
+6). Automated migration waves
+Automatically generate self-documenting, auditable migration waves from vCenter or other clouds.
+This helps provide an ordered migration plan that includes configuration details and enables scalable automated batch migration.
+
+7). Programmable migrations
+Programmable operations with REST API or PowerShell enable automation of the migration flow using the orchestration/automation tools
+of your choice.
+
+8). Boot over WAN
+Velostrata performs a native boot from the source operating system over the WAN in just a few minutes — regardless of the data size.
+While the system boots, Velostrata adapts it on the fly to meet the target environment.
+No manual changes to the application, image, storage, drivers, or networking are required.
+
+9). Intelligent streaming
+Prioritizes necessary data for an application to run and moves that data into the cloud first. 
+Applications begin running in cloud within minutes, while less-frequently accessed data can be streamed in the background 
+while the application runs in cloud.
+
+10). Multi-tier caching and optimization
+A multi-tier read-write cache in the cloud stores the working set of data needed by the application while it runs in the cloud.
+De-duplication, pre-fetching, asynchronous write-back, and network optimizations further accelerate the migration and reduce
+migration bandwidth by up to 75% in production migrations.
+
+11). Resiliency
+Each Velostrata deployment incorporates active-active migration clusters that are deployed across two zones. 
+Writes are acknowledged in both zones and asynchronously transferred back to on-premises storage to prevent data loss during 
+a single zone outage when deployed in a dual zone configuration.
+
+
+Use Cases:
+
+1. Accelerate your migration journey
+Move business application workloads from on-premises and other clouds into Google Cloud quickly and easily,
+with built-in support for testing, rollback, automation, and more. Reduce IT labor and keep migrations on time and under budget.
+
+2. Migrate any application landscape
+Migrate any application landscape with ease, whether it's a single application, a mix of thousands of applications, 
+multi-tier systems like SAP, legacy OSes, and/or physical servers.
+
+3. Unlock the cloud's agile capacity
+Move applications that are pegged on-premises into larger, more powerful instances in the cloud with minimal downtime and 
+complete data synchronization throughout. Stop spending on costly on-premises hardware, and rely on the cloud's on-demand capacity.
+
+4. Safeguard your migration end-to-end
+Test applications directly in the cloud before you migrate. Begin applications in the cloud within minutes, 
+while providing minimal downtime that is easy to predict and schedule. Roll back to on-premises anytime if needed.
+
+
