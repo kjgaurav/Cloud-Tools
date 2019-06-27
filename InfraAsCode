@@ -89,3 +89,8 @@ another on applications. This brings together the benefits of a focused orchestr
 of configuration management tools. This is one of the beauties of Terraform—it can easily work with your config management tool 
 of choice to provide customized application delivery while maintaining the benefits of immutability.
 
+URLS:
+https://www.intigua.com/blog/puppet-vs.-chef-vs.-ansible-vs.-saltstack
+https://www.edureka.co/blog/chef-vs-puppet-vs-ansible-vs-saltstack/
+https://www.linkedin.com/pulse/very-short-comparison-ansible-chef-puppet-saltstack-niels-goossens
+https://gist.github.com/jaceklaskowski/bd3d06489ec004af6ed9
