@@ -94,3 +94,39 @@ https://www.intigua.com/blog/puppet-vs.-chef-vs.-ansible-vs.-saltstack
 https://www.edureka.co/blog/chef-vs-puppet-vs-ansible-vs-saltstack/
 https://www.linkedin.com/pulse/very-short-comparison-ansible-chef-puppet-saltstack-niels-goossens
 https://gist.github.com/jaceklaskowski/bd3d06489ec004af6ed9
+
+
+Use Cases:
+
+Ansible
+-------
+
+1. Cloud management: Ansible can be used to manage AWS, Azure, Google Cloud Platform and OpenStack
+2. Public Cloud: Ansible offers a version on AWS
+3. Master: Ansible has the widest range of master support: the master or server software is supported on IBM AIX, BSD, Linux, MacOSX and Solaris, theoretically it could run on any operating system that supports Python
+4. Agents: Ansible supports any client or device that can run a secure shell, it can be controlled by Ansible. On the networking front, apart from supporting traditional Linux based operating systems in such devices, it also supports Cisco IOS and Juniper JunOS natively.
+5. Agentless: Ansible is only one working completely agentless.
+6. Step by step: Ansible use a step-by-step deployment method, means that the actions defined in an Ansible Playbook are executed line by line, in a so-called procedural configuration. 
+7. Availability: It runs with a single active node, called the Primary instance. If primary goes down, there is a Secondary instance to take its place.
+8. Interoperability: Ansible supports windows machines as well but the Ansible server has to be on Linux/Unix machine.
+
+Puppet
+------
+1. Cloud Management: Puppet offers connectivity to AWS, Azure, Google Cloud Platform and VMWare
+2. Public Cloud: Puppet do not have a version for public cloud
+3. Master: Puppet run on Linux (RHEL and Ubuntu) only.
+4. Agents: Puppet use their own proprietary agents, but such agents are available for all common computing platform. Puppet requires its enterprise version for controlling network devices (such as Cisco NX-OS)
+5. Step by Step: Puppet use a declarative configuration, which means the end-result is defined once and it is up to the tool to figure out the best way to reach this result.
+6. Availability: It has multi-master architecture, if the active master goes down, the other master takes the active master place.
+7. Interoperability: Puppet Master works only on Linux/Unix but Puppet Agent also works on windows.
+
+Chef
+----
+
+1. Cloud Management: Chef offers proprietary Cloud drivers which enables the configuration of various Clouds
+2. Public Cloud: Chef has a version for Amazon, Azure and a proprietary cloud hosted by themselves
+3. Master: Chef run on Linux (RHEL and Ubuntu) only.
+4. Agents: Chef use their own proprietary agents, but such agents are available for all common computing platform. Chef requires the open source version of its software for controlling network devices
+5. Step by Step: Chef use a step-by-step deployment method, means that the actions defined in a Chef Cookbook are executed line by line, in a so-called procedural configuration
+6. Availability: When there is a failure on the primary server i.e. chef server, it has a backup server to take the place of the primary server.
+7. Interoperability: Chef Server works only on Linux/Unix but Chef Client and Workstation can be on windows as well.
