@@ -195,3 +195,25 @@ That’s where Ansible comes in. Ansible’s library of modules and easy extensi
 
 You've freed yourself, now go and free the others
 You’ve written your Ansible playbooks and orchestrated your deployments and rollouts. You can now kick back and relax… but how do you let everyone else do so as well? That’s where Red Hat® Ansible® Tower comes in. With Ansible Tower’s self-service surveys, you can delegate your complex orchestration to whomever in your organization needs it. Sales team needs to set up customer environments? Just enter a couple of parameters, click and go - everything is provisioned and set up for them. With Ansible and Ansible Tower, orchestrating the most complex tasks becomes merely the click of a button even for the non-technical people in your organization.
+
+
+Scenario 1: Increasing Speed Of Application Deployment With Ansible
+
+Use Case: Application Deployment
+
+Business Challenge: Application build process involving a lengthy meta programming pipeline and processing phase and requires a solution that would speed and automate this time-consuming process.
+Additionally the network environment is a heterogeneous one, utilizing a mixture of Windows, OS X and Linux platforms, and needed a solution that would integrate seamlessly with existing machines.
+ 
+Solution: Ansible’s simple automation framework gives teams the power to deploy multi-tier applications quickly and reliably. 
+Ansible models IT infrastructures by describing how all systems inter-relate, rather than just managing one system at a time.
+Using simple language in the form of Ansible Playbooks, it allows users to describe their automation jobs in plain English which ensures easy adoption and use. 
+UAnsible increased the efficiency of the team by amalgamating its deployment best practices in one toolbox.
+And because Ansible’s agentless design integrates easily with a variety of networks, infrastructures and operating systems (OS), it was easily introduced into hybrid OS environment.
+
+Results: Using Ansible to automate application deployment, has reduced complexity, realized significant time-savings and achieved unparalleled scalability.
+Ansible solution benefits:
+• Faster time to deployment for data-rich applications
+• A predictable and simplified deployment process, creating deterministic outcomes and a better utilization of team resources
+• Improved integration of disparate machines and seamless automation of critical tasks across services and applications
+
+Scenario 2: 
