@@ -235,3 +235,22 @@ Results: Benefits:
 • A reusable and consistent process that helps mitigate human error 
 • A clear rollback strategy that mitigates the impact of  unforeseen anomalies.
 
+
+Scenario 3: Managing a Docker Container Deployment And Management Strategy 
+
+Use Case: Configuration management
+
+Business Challenge: To contain costs and streamline operations, requires a solution to consolidate multi-tiered SaaS application stack into a single EC2 instance for every customer.
+
+Solution: Developed an Ansible driven Docker container deployment and configuration strategy that included: 
+• Deployment of an Amazon VPC(Virtual Private Cloud), as well as configured subnets, routing, security groups, S3 buckets and Route 53
+• EC2 instance deployment in the Amazon VPC 
+• Installation of Docker (and additional support services) onto EC2 instances 
+• Pulling appropriate Docker containers into an EC2 Docker host 
+• An updated inventory table in Amazon DynamoDB
+
+Results:  A fully automated (with an end-to-end product deployment) process for spinning up new customers. Any team(e.g sales) can now easily execute processes without involvement from technical operation resources.
+
+
+
+
