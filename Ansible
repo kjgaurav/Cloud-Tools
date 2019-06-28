@@ -216,4 +216,22 @@ Ansible solution benefits:
 • A predictable and simplified deployment process, creating deterministic outcomes and a better utilization of team resources
 • Improved integration of disparate machines and seamless automation of critical tasks across services and applications
 
-Scenario 2: 
+Scenario 2: Using Ansible AWS Cloud module 
+
+Use Case: Continuous Integration
+
+Business Challenge: Minimal code deployment automation and no server automation. All server deployment tasks were processed manually. 
+Deployments ate up a lot of time and created serious potential for both human error and inconsistencies between development and production environments.
+
+Solution: Use Ansible’s AWS cloud module to architect a solution to better manage updates with automation by:
+• Deploying and configuring Amazon Elastic Load Balancers and Autoscaling Groups
+• Automating EC2 and RDS instance deployment across multiple application stacks 
+• Scripting rolling updates for patching and overall release  management from version control 
+• Enabling application installation on the fly via automated AMI(Amazon Machine Images) bundling
+
+Results: Benefits:
+• A repeatable deployment process, facilitating the creation of UAT  and SIT environments with the push of a button 
+• The ability to release code into production in seconds 
+• A reusable and consistent process that helps mitigate human error 
+• A clear rollback strategy that mitigates the impact of  unforeseen anomalies.
+
