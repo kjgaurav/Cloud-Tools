@@ -276,3 +276,23 @@ Ansible solution benefits:
 
 
 
+Scenario 5: Continuous Delivery Using Ansible Tower
+
+Use Case: Orchestration
+
+Business Challenge: Simplify Application Deployment, Minimize Downtime
+
+Solution: Based on a multi-tiered architecture running on VMware and with over 400 VMware nodes operating on Linux-based Ubuntu,
+each customized for its extensive customer base, deploying applications quickly and efficiently across these different environments proved a challenge.
+Having very defined customer service level agreements (SLAs), and requires a solution that would also minimize downtime.
+
+Solution: Leverage Ansible’s agentless automation framework to simplify the process of deploying, operating and upgrading applications – across disparate environments, in one simple languag
+
+Results:
+Using Ansible and Ansible Tower to automate application deployment, we are able to reduce complexity, speed solution delivery and ensure continuous delivery.
+Ansible solution benefits:
+• Adoption took a day or less, not weeks. An upside benefit that could be quickly passed on to customers
+• Faster time to deployment for its particular and modular client solutions, resulting in speedier time to market and higher customer satisfaction
+• A simplified and repeatable deployment process, leveraging true multi-tier, multi-step orchestration that minimized the complex dependencies of heterogeneous environments
+• Ansible Tower functionality created self-service IT, offering a better utilization of team resources
+• Powerful automation capabilities ensure continuous delivery, reducing downtime and ensuring performance against SLA
