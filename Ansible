@@ -254,3 +254,25 @@ Results:  A fully automated (with an end-to-end product deployment) process for 
 
 
 
+Scenario 4: Network Automation And Environment Provisioning  
+
+Use Case: Environment Provisioning
+
+Business Challenge: Challenges around provisioning new clients on Cloud-based services create excess manual work and human input errors.
+And it requires a solution to increase the speed, while utilizing the current team resources and reducing manual errors.
+As new customers are on-boarded, network engineers would have to enter numerous CLI commands to get them added to their SDN fabric.
+
+Solution:  To speed up this process and reduce manual processes, migrate to Ansible Tower and implement new Ansible modules specific SDN solution. 
+In this solution, the Programmable Flow Rest API interfaces with Tower to build new customer virtual networks.
+Create Ansible modules for the standard constructs used in building new customer networks, then map the new customer CLI scripts into Ansible playbooks. 
+Ansible Tower features such as Surveys are used to create a self service IT experience for the network engineering team.
+
+Results:  Using Ansible and Ansible Tower to automate network builds, the etwork engineering team is able to speed timme to market, reduce errors, and add new auditing functionality.
+Ansible solution benefits: 
+• Faster time to market for new SaaS customers, resulting in  increased revenue
+• A predictable deployment process, creating deterministic  outcomes and reducing errors from manual work
+• Ansible Tower functionality created self service IT, offering a better utilization of team resources
+• New functionality to manage the state of configuration, allowing for consistent changes to configurations
+
+
+
