@@ -91,3 +91,105 @@ Now your technical teams can all use the same interface to configure and manage 
 Puppet Enterprise provides a unified approach to managing both your compute and network infrastructure. Puppet's declarative approach lets you define all your infrastructure as code with a single interface — not just your compute resources. Technical teams can collaborate more effectively and accelerate application delivery. 
 
 Focus on what makes each platform special, instead of vendor-specific names. NetDev is a Puppet-maintained standard that brings naming consistency to networking for common configuration types. Integrations built on NetDev include Huawei and Arista.
+
+
+
+
+
+Scenario 1: Configuration Management, Security & Cloud Operations with Puppet
+
+Business Challenge: 
+• Achieve elasticity in the cloud to respond to peak seasonal demand
+• Achieve stability & limit costs as the business scales
+• It requires significantly more time to remediate high-severity issue like Heartbleed.
+• Proving PCI and Sarbanes-Oxley compliance required a lot of manual work
+
+Solution: Puppet Enterprise to automate cloud provisioning and deprovisioning, maintain consistent configurations and efficiency as the business grows.
+• Fast remediation of security vulnerabilities. The team can deal with Heartbleed, a high-severity security vulnerability, very quickly across hundreds of machines.
+• Free up system engineers’ time by automating pre-build, post-build and integration of applications, thus accelerating the company’s transition to the cloud.
+• Much easier compliance with PCI DSS (Payment Card Industry Data Security Standard) and Sarbanes-Oxley requirements.
+
+Results: Automation of routine system tasks and configuration control helps move to the cloud more quickly.
+• Greater visibility into system variances, plus automated remediation of configuration drift.
+• Scale infrastructure while holding down costs.
+• Enable self-service provisioning for developers and system engineers.
+• Free sysadmin time from routine, basic activities to focus on high-value engineering and architecting.
+• Rapid response to security vulnerabilities and other events requiring immediate action at scale.
+
+
+Scenario 2: Enabling DevOps & Self-Service Cloud Provisioning with Puppet
+
+Business Challenge: Automate private cloud used by application development teams; create self-service provisioning for developers; speed deployment cycles.
+Meed to automate the private cloud spanning multiple data centers. Also enable self-service provisioning for application development teams to free up IT Operations from having to provision developer environments so they can focus on activities that add more value to the business.
+• The private cloud for development teams consists of thousands of virtual machines in multiple data centers.
+• Private cloud runs on Red Hat Enterprise Linux.
+• Additional technology includes Red Hat Satellite, Apache, Tomcat, NodeJS, MongoDB, Oracle and Redis.
+
+Solution: Automate cloud management & create a PaaS-like provisioning service.
+• Automate common IT operations tasks to provide consistency.
+• Free IT team to innovate.
+
+Results:
+• Deployment cycles went from weeks to hours, from days to minutes.
+• Developers can provision their own environments as needed.
+• Fast provisioning of cloud resources for internal application development teams.
+• Automated systems management makes IT ops teams faster & more efficient.
+• Increased stability and reliability.
+
+
+
+Scenario 3:  Achieve consistency, reliability and visibility in a heterogeneous, distributed infrastructure
+
+Business Challenge: The infrastructure consists of around 100 or so completely heterogeneous nodes. The majority of these nodes were a mix of physical and virtual machines running Red Hat Enterprise Linux (RHEL), CentOS or Scientific Linux in 5.x and 6.x, on both 32-bit and 64-bit architectures. 
+There is also a few of Windows hosts for interfacing with specialized hardware. Most nodes are run in a geographically redundant pair, no with little or no staging.
+While many parts of the infrastructure is well maintained, with versioned configurations, the team wanted to centralize configurations.
+It was difficult to keep such heterogeneous systems maintained and up to date; much configuration was being done manually, resulting in some divergence in configurations between hosts.
+
+Solution: Puppet Enterprise makes it possible to fulfill all of these requirements, and its console also provides visibility into the current state of infrastructure at all times. It’s also much easier to report on the state of infrastructure and demonstrate compliance with operational requirements.
+Use Puppet Enterprise to manage its hybrid cloud infrastructure hosted by AWS and other cloud providers.
+
+Results:
+• Fast ROI – The integration of the various components in Puppet Enterprise greatly sped up installation, allowing to begin making real advances quickly.
+• Scalability and Orchestration – The scalability and orchestration was a quick and powerful way to achieve a task which previously would have involved much manual intervention.
+• Defined Infrastructure – a well defined minimal base server profile for all nodes, services, repositories and packages. This lowers the divergence in the infrastructure and shows the “power of Puppet.”
+
+
+Scenario 4: Continuous Integration with Puppet
+
+Business Challenges: To speed its software development cycles and deliver code more frequently.
+• Manual server provisioning was slow & failure-prone.
+• Homegrown automation was inefficient.
+• Continuous integration impossible with manual process.
+• Needed to prove PCI compliance.
+
+Solution: Puppet Enterprise, can be used to provision and make changes seamlessly on both physical and virtual machines.
+• Infrastructure automation for fast change, reliability, visibility.
+• Dashboard for infrastructure visibility & reporting.
+• Integration with VMware.
+• Enable continuous integration & continuous delivery.
+
+Results
+• Sysadmin team is efficient & productive.
+• Infusionsoft positioned to scale quickly for growth.
+• Continuous integration established & replicable.
+• Easy reporting to management & auditors.
+
+
+
+Scenario 5: Rapidly deploys infrastructure and expands business worldwide with Puppet Enterprise
+
+Business Challenges:
+• Virtual machines were configured in an inconsistent manner and were unmanageable
+• Needed to migrate critical workloads to the cloud: application services, networking, security and storage
+• The process for deploying Microsoft Azure subscriptions was slow and inefficient
+
+Solution: 
+• Puppet will allow to ensure current systems are configured correctly and easily see all configurations at a glance with a clearer view.
+• Puppet Enterprise will allow to design and deploy new Azure subscriptions in a quick and efficient manner.
+
+Results
+• Deployed infrastructure in a quicker and consistent manner, which allowed the team to focus on larger business objectives
+• Expanded the business worldwide by building virtual data centers in Azure across the globe
+• Launched a new solution that satisfied varying expectations between customers, developers and executives
+
+
