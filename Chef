@@ -129,3 +129,32 @@ Habitat’s technology allows legacy applications to be repackaged in a way that
 
 Furthermore, applications packaged with Habitat provide a uniform management interface and can be continuously delivered in the same way as the most modern microservice-based Habitat applications. Not only does this allow both legacy and modern applications to be managed in the same way, but it truly allows all of IT to move fast.
 
+
+
+
+Scenario 1: Automating infrastructure in a highly secure environment
+
+Business Challenge: Doing the same tasks again and again but each time the result was a bit different because the person 
+who was doing the job now was not the person who did the job before. Consequently, lot of services that were all slightly different
+from each other. 
+To reach a point where we could do the same thing repeatedly, without any changes between deployments. 
+Also, Need to know that our servers are always in compliance.
+Also, get rid of the things that take a lot of time like creating a special server with software on top of it or hardening servers.
+
+
+Solution: 
+1) Creating a secure environment with Chef:
+Design of the network topology around the Chef server and also for its installation.
+A lot of security constraints and the fact that Chef runs on only one port means that we are able to create secure tunnels using F5.
+2) Securing the servers
+Writing the cookbook to harden Linux systems, able to write the Linux cookbook within a week
+
+
+Results: using Chef, the team has already seen significant improvements in deployment time. 
+1). Creating a stack that includes bootstrapping a Linux server, hardening it, and installing the application server along with other software used to take days. It now takes minutes.
+2). Significantly reduced the number of human errors but they can manage their infrastructure consistently across several DMZs.
+
+
+
+
+
