@@ -177,5 +177,32 @@ enabled the ETL PaaS solution
 
 
 
+Scenario 3: Using Chef to automate systems configuration at massive scale
+
+Business Challenge: 
+For many years, systems were managed with cfengine2. With many individual clusters over 10k nodes in size,
+a slew of different constantly-changing system configurations, and small teams, this system was showing its age 
+and the complexity was steadily increasing, limiting its effectiveness and usability. 
+It was difficult to integrate with internal systems, testing was often impractical, and it provided no isolation of 
+configurations, among many other problems.
+
+Solution: 
+After an extensive evaluation of the tools and paradigms in modern systems configuration management–open source, proprietary, and a 
+potential home-grown a system was built based on Chef.The evaluation process involved understanding the direction to take in managing 
+the next many iterations of systems, clusters, and teams. Also evaluated the various paradigms behind effective configuration management
+and the different kinds of scale they provide.
+Using Chef allowed to build an extremely flexible system that allows a tiny team to manage an incredibly large number of systems
+with a variety of unique configuration needs.
+
+Results: 
+Chef provided an automation solution flexible enough to bend to this scale dynamics without requiring to change the workflow. 
+Chef provided top-flight support, earlier access to upcoming changes, and additional rich features on top of the functionality 
+in open-source Chef. Use of Chef to automate and manage this large-scale infrastructure illustrates the power of Chef in solving 
+some of the most critical and complicated IT challenges
+
+
+
+
+
 
 
