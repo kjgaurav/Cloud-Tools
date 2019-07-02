@@ -158,3 +158,24 @@ Results: using Chef, the team has already seen significant improvements in deplo
 
 
 
+Scenario 2: EXTRACT, TRANSFORM AND LOAD PLATFORM AS A SERVICE
+
+Business Challenge: 
+1). The current ETL platform provisioning process is time consuming due to the cross-team engagement to build out the infrastructure, configure the network, create the databases, install the middleware components, setup monitoring and configure security. In addition, the process is error prone due to manual installation and configuration of the ETL software.
+2). In addition to new server builds, maintaining platform health and upgrades are common manual activities that are time consuming and error prone
+
+Solution: 
+1). To improve delivery speed, increase productivity and ensure quality, Designed an ETL Platform as a Service (PaaS) solution using Chef.
+2). The ETL PaaS solution can also be applied to platform maintenance to increases productivity and quality.
+
+Results: 
+Global organizations are under pressure to provide high-quality products while simultaneously achieving lower costs, 
+increase productivity and speed to market. ETL Platform as a Service solution illustrates a practical implementation using automation
+approach for platform builds and maintenance work. Private Cloud service along with Chef infrastructure as code technology 
+enabled the ETL PaaS solution
+
+
+
+
+
+
