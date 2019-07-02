@@ -205,4 +205,28 @@ some of the most critical and complicated IT challenges
 
 
 
+Scenario 4: Chef achieves Configuration Management
 
+Business Challenge: 
+Traditional deployment workflow was characterized by multiple handoffs and manual tests. 
+Let us see what were the problems they faced with this process:
+
+1)Maintaining accurate, repeatable builds was difficult.
+2)There were many build failures and tests were often running in the wrong environments.
+3)Deployment and provisioning times could range from a few days to several weeks.
+4)Operations team didn’t have access to the cloud or development environments.
+5)Every group used its own tool-set, and there was no accountability to finance or security. No one knew how much an application actually cost. Security had no way to audit the software stacks.
+
+Solution: 
+Let us see what were the functions performedby Chef:
+1)Started building VPC (Virtual Private Cloud) for development environment that would mimic the production. Chef worked well with the cloud and both Linux and Windows environment. They used Chef to build a development environment that perfectly matched production environment.
+2)For an application to move into the VPC, it had to be provisioned and deployed with Chef.
+3)Security would be involved early on and would manage the mandatory controls for access to Chef and 
+for maintaining system security standards.
+
+Results: 
+1)Deployment became quicker and more reliable. Application provisioning and deployment, which once took weeks,
+after using Chef it took minutes.
+2)All new applications were deployed on the cloud with Chef. These applications were deployed to all environments in the 
+same way that they were deployed to production. Also, testing occurred in each environment, so that the deployments were reliable.
+3)All infrastructure was treated as code, which greatly increases visibility into any changes that occurred. Development, Operations, Security and Finance all were benefited from this.
