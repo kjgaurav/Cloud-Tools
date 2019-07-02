@@ -230,3 +230,28 @@ after using Chef it took minutes.
 2)All new applications were deployed on the cloud with Chef. These applications were deployed to all environments in the 
 same way that they were deployed to production. Also, testing occurred in each environment, so that the deployments were reliable.
 3)All infrastructure was treated as code, which greatly increases visibility into any changes that occurred. Development, Operations, Security and Finance all were benefited from this.
+
+
+
+
+
+Scenario 5: Automating compliance
+
+Business Challenge: 
+Compliance without automation
+Of course, there are many regulatory and security guidelines one must follow and each month the team checks to make sure their servers
+are compliant. There are around 100 checks and, before InSpec, they were performed manually. The process was very difficult. 
+The team had to log in to each machine, check the configuration settings, provide the results on paper, and then log them. 
+Completing a single check took about 5 minutes, so vetting just one server took about 8 hours.
+
+
+Solution: 
+Introducing automation with InSpec
+Automation(InSpec) was the answer and with Chef developed and added a profile for HP-UX that was based on the Center for Internet Security (CIS) benchmarks. Vivek then tested and customized them to fit the bank’s particular requirements. Next he did a proof of concept for the bank, showing them the results for a couple machines.
+Able to see the entire scan result in minutes. We could see how many were compliant, how many were not compliant and based on that
+we could make a quick decision. What they took 500 minutes to perform on one server, could now be performed in 2 minutes, which was exceptional.
+We could also use the tool to ensure that the DR configuration and the primary data center configuration were the same. 
+
+
+Results: 1) We could just run a test across both sides and track disparities in their configurations and go ahead, make a decision and make relevant changes to remediate them.
+2) Now, with a single click, the team can instantly show the auditor what checks have been performed.
